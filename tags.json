@@ -40,6 +40,6 @@
   "buttondark": "<button type=\"button\" class=\"btn btn-secondary\">",
   "buttongreen": "<button type=\"button\" class=\"btn btn-success\">",
   "buttonyellow": "<button type=\"button\" class=\"btn btn-warning\">",
-  "buttonred": "<button type=\"button\" class=\"btn\ btn-danger">",
-  "buttonblack": "<button type=\"button\" class=\"btn\ btn-dark">"
+  "buttonred": "<button type=\"button\" class=\"btn btn-danger">",
+  "buttonblack": "<button type=\"button\" class=\"btn btn-dark">"
 }
