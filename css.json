@@ -4,6 +4,5 @@
   "webapp": "<meta <meta name=\"apple-mobile-web-app-capable\" content=\"yes\" /> ",
   "morerounded": "<style> $border-radius: 0.5rem;</style>",
   "topbarspace": "<style type=\"text css\">. body { padding-top: 65px !important; }</style>",
-  "mdicons": "<link href=\"https://fonts.googleapis.com/icon?family=Material+Icons\" rel=\"stylesheet\">,
-  "fontawesome": ""
+  "mdicons": "<link href=\"https://fonts.googleapis.com/icon?family=Material+Icons\" rel=\"stylesheet\">
 }
