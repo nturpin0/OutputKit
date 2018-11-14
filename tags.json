@@ -24,7 +24,7 @@
   "badgegreen": "<span class=\"badge badge-success\">",
   "badgered": "<span class=\"badge badge-danger\">",
   "badgeyellow": "<span class=\"badge badge-warning\">",
-  "badgelight": "<span class=\"badge badge-info\">",
+  "badgeblue": "<span class=\"badge badge-info\">",
   "badgelight": "<span class=\"badge badge-light\">",
   "badgeblack": "<span class=\"badge badge-light\">"
 }
