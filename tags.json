@@ -33,7 +33,6 @@
   "badgeblue": "<span class=\"badge badge-info\">",
   "badgelight": "<span class=\"badge badge-light\">",
   "badgeblack": "<span class=\"badge badge-dark\">",
-  "topbar": "<nav class=/"navbar navbar-expand-sm bg-light navbar-dark fixed-top/"><li class=/"nav-item active/"><a class=/"nav-link/" href=/"#/" style=/"color: #ff0000;/">",
+  "topbar": "<nav class=\"navbar navbar-expand-sm bg-light navbar-dark fixed-top\"><li class=\"nav-item active\"><a class=\"nav-link\" href=\"#\" style=\"color: #ff0000;\">",
   "/topbar": "</a></li></nav>"
-  
 }
