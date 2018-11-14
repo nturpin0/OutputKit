@@ -1,8 +1,8 @@
 {
-  "viewport": "   <meta charset=\"utf-8\" />     <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />",
-  "bootstrapminimal": " <link rel=\"stylesheet\" href=\"https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css\" integrity=\"sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm\" crossorigin=\"anonymous\"> ",
-  "webapp": "<meta <meta name=\"apple-mobile-web-app-capable\" content=\"yes\" /> ",
-  "morerounded": "<style> $border-radius: 0.5rem;</style>",
-  "topbarspace": "<style type=\"text css\">. body { padding-top: 65px !important; }</style>",
-  "mdicons": "<link href=\"https:\/\/fonts.googleapis.com\/icon?family=Material+Icons\" rel=\"stylesheet\">
+	"viewport": "   <meta charset=\"utf-8\" />     <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />",
+	"bootstrapminimal": " <link rel=\"stylesheet\" href=\"https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css\" integrity=\"sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm\" crossorigin=\"anonymous\"> ",
+	"webapp": "<meta <meta name=\"apple-mobile-web-app-capable\" content=\"yes\" /> ",
+	"morerounded": "<style> $border-radius: 0.5rem;</style>",
+	"topbarspace": "<style type=\"text css\">. body { padding-top: 65px !important; }</style>",
+	"mdicon": "<link href=\"https://fonts.googleapis.com/icon?family=Material+Icons\" rel = \"stylesheet\" >"
 }
