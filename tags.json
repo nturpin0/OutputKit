@@ -44,5 +44,7 @@
   "buttonblack": "<button type=\"button\" class=\"btn btn-dark\">",
   "/button": "</button>",
   "image": "<img src=\"data:image\/jpeg;base64,",
-  "/image": "\" class=\"rounded\" alt=\"image\">"
+  "/image": "\" class=\"rounded\" alt=\"image\">",
+  "mdicon": "<i class=\"material-icons\">",
+  "/icon": "</i>"
 }
