@@ -34,5 +34,12 @@
   "badgelight": "<span class=\"badge badge-light\">",
   "badgeblack": "<span class=\"badge badge-dark\">",
   "topbar": "<nav class=\"navbar navbar-expand-sm bg-light navbar-dark fixed-top\"><li class=\"nav-item active\"><a class=\"nav-link\" href=\"#\" style=\"color: #ff0000;\">",
-  "/topbar": "</a></li></nav>"
+  "/topbar": "</a></li></nav>",
+  "button": "<button type=\"button\" class=\"btn\">",
+  "buttonblue": "<button type=\"button\" class=\"btn btn-primary\">",
+  "buttondark": "<button type=\"button\" class=\"btn btn-secondary\">",
+  "buttongreen": "<button type=\"button\" class=\"btn btn-success\">",
+  "buttonyellow": "<button type=\"button\" class=\"btn btn-warning\">",
+  "buttonred": "<button type=\"button\" class=\"btn\ btn-danger">",
+  "buttonblack": "<button type=\"button\" class=\"btn\ btn-dark">"
 }
