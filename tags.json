@@ -44,5 +44,5 @@
   "buttonblack": "<button type=\"button\" class=\"btn btn-dark\">",
   "/button": "</button>",
   "image": "<img src=\"data:image\/jpeg;base64,",
-  "/image": "class=\"rounded\" alt=\"Cinque Terre">"
+  "/image": "\" class=\"rounded\" alt=\"image\">"
 }
