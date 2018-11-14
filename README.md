@@ -26,7 +26,14 @@ For making nicer looking Shortcuts
   badgeyellow    /badge
   badgelight     /badge
   badgeblack    /badge
-
+- topbar   /topbar
+- button /button
+  buttonblue  /button
+  buttondark     /button
+  buttongreen  /button
+  buttonyellow    /button
+  buttonred    /button 
+  buttonblack  /button
 
 
 Unsupported currently
