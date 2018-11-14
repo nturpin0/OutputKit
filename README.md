@@ -18,7 +18,7 @@ For making nicer looking Shortcuts
 - cardbody   /cardbody
 - cardtext   /cardtext
 - cardheader   /cardheader
-- link    linkname   /link    <<< Should be card link????
+- link    linkname   /link 
 - badgeblue    /badge
   badgegray     /badge
   badgegreen   /badge
