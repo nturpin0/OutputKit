@@ -42,5 +42,7 @@
   "buttonyellow": "<button type=\"button\" class=\"btn btn-warning\">",
   "buttonred": "<button type=\"button\" class=\"btn btn-danger\">",
   "buttonblack": "<button type=\"button\" class=\"btn btn-dark\">",
-  "/button": "</button>"
+  "/button": "</button>",
+  "image": "<img src=/",
+  "image": "class=/"rounded/" alt=/"Cinque Terre/">"
 }
