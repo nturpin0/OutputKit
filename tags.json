@@ -3,9 +3,15 @@
   "/cardbody": "</div>",
   "/link": "</a>",
   "link": " <a href=\"",
+  "cardblue": "<div class=\"card bg-primary text-white\">",
+  "cardgreen": "<div class=\"card bg-success text-white\">",
+  "card": "<div class=\"card bg-light text-dark\">",
+  "cardyellow": "<div class=\"card bg-warning text-white\">",
+  "cardred": "<div class=\"card bg-danger text-white\">",
+  "cardgray": "<div class=\"card bg-secondary text-white\">",
+  "cardblack": "<div class=\"card bg-dark text-white\">",
   "/card": "</div>",
   "responsivetable": "<div class=\"table-responsive\">",
-  "card": "<div class=\"card border-light\">",
   "cardbody": " <div class=\"card-body\">",
   "/cardheader": "</h4></div>",
   "/listgroup": "</ul>",
@@ -26,5 +32,8 @@
   "badgeyellow": "<span class=\"badge badge-warning\">",
   "badgeblue": "<span class=\"badge badge-info\">",
   "badgelight": "<span class=\"badge badge-light\">",
-  "badgeblack": "<span class=\"badge badge-light\">"
+  "badgeblack": "<span class=\"badge badge-dark\">",
+  "topbar": "<nav class=/"navbar navbar-expand-sm bg-light navbar-dark fixed-top/"><li class=/"nav-item active/"><a class=/"nav-link/" href=/"#/" style=/"color: #ff0000;/">",
+  "/topbar": "</a></li></nav>"
+  
 }
