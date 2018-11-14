@@ -1,0 +1,23 @@
+{
+  "cardtext": " <p class=\"card-text\">",
+  "/cardbody": "</div>",
+  "/link": "</a>",
+  "link": " <a href=\"",
+  "/card": "</div>",
+  "responsivetable": "<div class=\"table-responsive\">",
+  "card": "<div class=\"card border-light\">",
+  "cardbody": " <div class=\"card-body\">",
+  "/cardheader": "</h4></div>",
+  "/listgroup": "</ul>",
+  "linkname": "\" class=\"card-link\">",
+  "/rewponsivetable": "</div>",
+  "jumbotron": "<div class=\"jumbotron\">",
+  "/listitem": "</li>",
+  "listitem": "  <li class=\"list-group-item\">",
+  "/cardtext": "<p>",
+  "/jumbotron": "</div>",
+  "listgroup": "<ul class=\"list-group\">",
+  "/badge": "</span>",
+  "cardheader": " <div class=\"card-header\"><h4>",
+  "badgewarning": "<span class=\"badge badge-warning\">"
+}
