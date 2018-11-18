@@ -30,7 +30,6 @@
   "badgegreen": "<span class=\"badge badge-success\">",
   "badgered": "<span class=\"badge badge-danger\">",
   "badgeyellow": "<span class=\"badge badge-warning\">",
-  "badgeblue": "<span class=\"badge badge-info\">",
   "badgelight": "<span class=\"badge badge-light\">",
   "badgeblack": "<span class=\"badge badge-dark\">",
   "topbar": "<nav class=\"navbar navbar-expand-sm bg-light navbar-dark fixed-top\"><li class=\"nav-item active\"><a class=\"nav-link\" href=\"#\" style=\"color: #ff0000;\">",
@@ -46,5 +45,10 @@
   "image": "<img src=\"data:image\/jpeg;base64,",
   "/image": "\" class=\"rounded\" alt=\"image\">",
   "mdicon": "<i class=\"material-icons\">",
-  "/icon": "</i>"
+  "/mdicon": "</i>",
+  "timeline": "<div class=\"timeline\"><ul>",
+  "time": "<li><div class=\"bullet\"></div><div class=\"time\">",
+  "timedesc": "</div><div class=\"desc\">",
+  "/time": "</div></li>",
+  "/timeline": "</ul></div>"
 }
