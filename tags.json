@@ -5,10 +5,10 @@
   "link": " <a href=\"",
   "cardblue": "<div class=\"card bg-primary text-white\">",
   "cardgreen": "<div class=\"card bg-success text-white\">",
-  "card": "<div class=\"card bg-light text-dark\">",
+  "card": "<div class=\"card bg-light text-dark\" class=\"card border-0\">",
   "cardyellow": "<div class=\"card bg-warning text-white\">",
   "cardred": "<div class=\"card bg-danger text-white\">",
-  "cardgray": "<div class=\"card bg-secondary text-white\">",
+  "cardgray": "<div class=\"card bg-secondary text-white\" class=\"card border-0\">",
   "cardblack": "<div class=\"card bg-dark text-white\">",
   "/card": "</div>",
   "responsivetable": "<div class=\"table-responsive\">",
@@ -45,10 +45,5 @@
   "image": "<img src=\"data:image\/jpeg;base64,",
   "/image": "\" class=\"rounded\" alt=\"image\">",
   "mdicon": "<i class=\"material-icons\">",
-  "/mdicon": "</i>",
-  "timeline": "<div class=\"timeline\"><ul>",
-  "time": "<li><div class=\"bullet\"></div><div class=\"time\">",
-  "timedesc": "</div><div class=\"desc\">",
-  "/time": "</div></li>",
-  "/timeline": "</ul></div>"
+  "/mdicon": "</i>"
 }
