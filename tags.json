@@ -5,7 +5,7 @@
   "link": " <a href=\"",
   "cardblue": "<div class=\"card bg-primary text-white\">",
   "cardgreen": "<div class=\"card bg-success text-white\">",
-  "card": "<div class=\"card bg-light text-dark\" class=\"card border-0\">",
+  "card": "<div class=\"card bg-light text-dark\" class=\"shadow p-3 mb-5 bg-white rounded\" class=\"card border-0\">",
   "cardyellow": "<div class=\"card bg-warning text-white\">",
   "cardred": "<div class=\"card bg-danger text-white\">",
   "cardgray": "<div class=\"card bg-secondary text-white\" class=\"card border-0\">",
@@ -46,8 +46,10 @@
   "/image": "\" class=\"rounded\" alt=\"image\">",
   "mdicon": "<i class=\"material-icons\">",
   "/mdicon": "</i>",
+  "shadow": "<div class=\"shadow p-3 mb-5 bg-white rounded\">",
+  "shadow": "</div>",
   "launchtextpopup":"<button type=\"button\" class=\"btn btn-primary\" data-toggle=\"modal\" data-target=\"#exampleModalLong\">",
-  "\/launchtextpopup":"<\/button>",
+  "/launchtextpopup":"</button>",
   "textpopup":"<div class=\"modal fade\" id=\"exampleModalLong\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"exampleModalLongTitle\" aria-hidden=\"true\">   <div class=\"modal-dialog\" role=\"document\">     <div class=\"modal-content\">       <div class=\"modal-header\">         <h5 class=\"modal-title\" id=\"exampleModalLongTitle\">Modal title<\/h5>         <button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\">           <span aria-hidden=\"true\">&times;<\/span>         <\/button>       <\/div>       <div class=\"modal-body\">",
-  "\/textpopup":"      <\/div>       <div class=\"modal-footer\">         <button type=\"button\" class=\"btn btn-secondary\" data-dismiss=\"modal\">Close<\/button>         <button type=\"button\" class=\"btn btn-primary\">Save changes<\/button>       <\/div>     <\/div>   <\/div> <\/div>"
+  "/textpopup":"      <\/div>       <div class=\"modal-footer\">         <button type=\"button\" class=\"btn btn-secondary\" data-dismiss=\"modal\">Close<\/button>         <button type=\"button\" class=\"btn btn-primary\">Save changes<\/button>       <\/div>     <\/div>   <\/div> <\/div>"
 }
