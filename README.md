@@ -45,5 +45,8 @@ Unsupported currently
 - ml.   mlsub (required even if not using.  /ml. no images currently (exp)
 
 ## Icons
+MD & FA ?
+
+## Bars
 
 
