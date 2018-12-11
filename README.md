@@ -41,7 +41,8 @@ Unsupported currently
 - badgewarning    /badgewarning
 
 ## Menus
-
+- mlcolors for putting in a list and sending to a choose from list
+- ml.   mlsub (required even if not using.  /ml. no images currently (exp)
 
 ## Icons
 
