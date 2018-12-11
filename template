@@ -9,6 +9,7 @@ THIS IS NOT CURRENTLY FOR USE
 tags(viewport)
 tags(css)
 
+So Shortcut will be Fonts Variable Required Variable etc and if yes just read from the dictionary, no = nothing etc
 <!–- Fonts:option ––>
 >>css (inc:mdicon) replace/option awesome icons
 >>css (additional)
@@ -23,8 +24,10 @@ body {
 </style>
 </head>
 <body>
-<div class="container rounded"
+>> really, is that the right containeer. <div class="container rounded"
 <!–– OutputKit   Output Area ––>
+
+
 
 
 
