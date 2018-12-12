@@ -10,11 +10,12 @@ Here's what marking up with OutputKit looks like ![Image](https://i.ibb.co/f18VL
 
 
 ## List Menus
+
 - mlcolors for putting in a list and sending to a choose from list
 - ml.   mlsub (required even if not using.  /ml. no images currently (exp)
 
 ## Bars
-
+![image](https://i.ibb.co/VqWQT9T/IMG-0619.png)
 
 
 ## CSS/html
@@ -62,7 +63,7 @@ Here's what marking up with OutputKit looks like ![Image](https://i.ibb.co/f18VL
 MD & FA ?
 
 ### inc:
-These are used mostly by the template builder, and you dont need to know them, unless you're rolled your sleeves up to get stuck into the engine.
+These are used mostly by the template builder, and you dont need to know them, unless you've rolled your sleeves up to get stuck into the engine.
 - viewport - sets up the page
 - bootstrapminimal - for including the bootstrap files
 - webapp - for when creating a page with no address bar, eg like a home screen launcher
