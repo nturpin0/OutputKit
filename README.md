@@ -41,22 +41,22 @@ Here's what marking up with OutputKit looks like ![Image](https://i.ibb.co/f18VL
 
 ### Badges
 - badgeblue    /badge
-  badgegray     /badge
-  badgegreen   /badge
-  badgered      /badge
-  badgeyellow    /badge
-  badgelight     /badge
-  badgeblack    /badge
+- badgegray     /badge
+- badgegreen   /badge
+- badgered      /badge
+- badgeyellow    /badge
+- badgelight     /badge
+- badgeblack    /badge
 - topbar   /topbar
 
 ### Buttons
 - button /button
-  buttonblue  /button
-  buttondark     /button
-  buttongreen  /button
-  buttonyellow    /button
-  buttonred    /button 
-  buttonblack  /button
+- buttonblue  /button
+- buttondark     /button
+- buttongreen  /button
+- buttonyellow    /button
+- buttonred    /button 
+- buttonblack  /button
 
 ### Unsupported currently
 - responsivetable    /responsivetable
@@ -79,5 +79,3 @@ These are used mostly by the template builder, and you dont need to know them, u
 - md:icon
 - disableselection
 - disablezoom
-
-
