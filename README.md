@@ -9,7 +9,6 @@ OutputKit Apps
 Here's our Roadmap, well fancy to do list really
 [OutputKit Roadmap](https://trello.com/b/tKVsvzdc/outputkit)
 
-Here's what marking up with OutputKit looks like ![Image](https://i.ibb.co/f18VLGm/q6vox0x4w3y11.jpg)
 
 
 ## List Menus
@@ -18,7 +17,6 @@ Here's what marking up with OutputKit looks like ![Image](https://i.ibb.co/f18VL
 - ml.   mlsub (required even if not using.  /ml. no images currently (exp)
 
 ## Bars
-![image](https://i.ibb.co/VqWQT9T/IMG-0619.png)
 
 
 ## CSS/html
