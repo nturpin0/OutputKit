@@ -63,8 +63,9 @@ Here's what marking up with OutputKit looks like ![Image](https://i.ibb.co/f18VL
 - badgewarning    /badgewarning
 
 ### Media
-- video  /video
-- audio  /audio
+- imgb64  /imgb64
+- vidb64  /vidb6
+- audb64  /audb64
 
 ### Icons
 MD & FA ?
