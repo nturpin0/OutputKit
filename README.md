@@ -7,7 +7,7 @@ OutputKit Apps
 - OutputKit Toolkit - For quickly getting the OutputKit JSON, and creating a template
 
 Here's our Roadmap, well fancy to do list really
-[OutputKit Roadmap](https://trello.com/b/tKVsvzdc/outputkit)
+
 
 
 
