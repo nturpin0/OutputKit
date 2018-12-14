@@ -47,6 +47,8 @@
   "/imgb64": "\" class=\"rounded\" alt=\"image\">",
   "mdicon": "<i class=\"material-icons\">",
   "/mdicon": "</i>",
+  "faicon": "<i class=\"fas fa-",
+  "/faicon": "\"></i>",
   "vidb64": "<video controls style=\"width: 100%;\" src=\"data:video/mp4;base64,",
   "/vidb64": "\"/>",
   "audb64": "<audio controls style=\"width: 100%;\" src=\"data:audio/mp3;base64,", 
