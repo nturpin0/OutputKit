@@ -1,4 +1,4 @@
-# OutputKit - Please dont use the files yet it's pre-release right now
+# OutputKit
 For making nicer looking Shortcuts
 
 OutputKit is a json file that makes marking up difficult things a bit easier. In order to use it you need to refer to the variable that you put the json into eg OutputKit, change the variable into a dictionary, then enter one of the tags as the key.
