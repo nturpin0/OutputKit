@@ -4,7 +4,15 @@ For making nicer looking Shortcuts
 OutputKit is a json file that makes marking up difficult things a bit easier. In order to use it you need to refer to the variable that you put the json into eg OutputKit, change the variable into a dictionary, then enter one of the tags as the key.
 
 OutputKit Apps
-- OutputKit Toolkit - For quickly getting the OutputKit JSON, and creating a template
+[OutputKit Build - For getting the latest tags, copying them and html templates to your project]
+(https://routinehub.co/shortcut/1221)
+
+[OutputKit Template- A template of actions you can use as a starting point to build your Shortcuts with OutputKit](https://routinehub.co/shortcut/1220)
+
+[OutputKit Examples - Commented examples of how to use different OutputKit components](https://routinehub.co/shortcut/1219)
+
+
+
 
 Here's our Roadmap, well fancy to do list really
 
