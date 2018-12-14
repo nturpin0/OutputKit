@@ -60,6 +60,6 @@
   "mlsub":";;;\r\nORG:",
   "mlimage":";\r\nPHOTO;ENCODING=b: ",
   "\/ml":"\r\nEND:VCARD",
-  "bar":"<div class=\"progress\" style=\"height:20px\">\r\n  <div class=\"progress-bar\" style=\"width:",
-  "/bar":";height:20px\"></div>\r\n</div>"
+  "bar":"<div class=\"progress\" style=\"height:20px\"><div class=\"progress-bar\" style=\"width:",
+  "/bar":";height:20px\"></div></div>"
 }
