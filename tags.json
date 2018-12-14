@@ -59,5 +59,7 @@
   "ml": "BEGIN:VCARD\r\nVERSION:3.0\r\nN:;",
   "mlsub":";;;\r\nORG:",
   "mlimage":";\r\nPHOTO;ENCODING=b: ",
-  "\/ml":"\r\nEND:VCARD"
+  "\/ml":"\r\nEND:VCARD",
+  "bar":"<div class=\"progress\" style=\"height:20px\">\r\n  <div class=\"progress-bar\" style=\"width:",
+  "/bar":";height:20px\"></div>\r\n</div>"
 }
