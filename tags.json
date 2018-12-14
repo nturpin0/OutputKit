@@ -1,5 +1,5 @@
 {
-  "version": "1",
+  "version": ".901",
   "cardtext": " <p class=\"card-text\">",
   "/cardbody": "</div>",
   "/link": "</a>",
@@ -13,7 +13,7 @@
   "cardblack": "<div class=\"card bg-dark text-white\">",
   "/card": "</div>",
   "table": "<div class=\"table-responsive\"><table class=\"table\" style=\"width:100%\">",
-  "/table": "</div>",
+  "/table": "</table></div>",
   "cardbody": " <div class=\"card-body\">",
   "/cardheader": "</h4></div>",
   "/listgroup": "</ul>",
