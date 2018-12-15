@@ -63,5 +63,12 @@
   "mlimage":";\r\nPHOTO;ENCODING=b: ",
   "\/ml":"\r\nEND:VCARD",
   "bar":"<div class=\"progress\" style=\"height:20px\"><div class=\"progress-bar\" style=\"width:",
-  "/bar":";height:20px\"></div></div>"
+  "/bar":";height:20px\"></div></div>",
+  "ReceivedMessage": "file:///System/Library/Audio/UISounds/ReceivedMessage.caf",
+"SentMessage": "file:///System/Library/Audio/UISounds/SentMessage.caf",
+"MailSent": "file:///System/Library/Audio/UISounds/mail-sent.caf",
+"Tink": "file:///System/Library/Audio/UISounds/Tink.caf",
+"Alarm": "file:///System/Library/Audio/UISounds/alarm.caf",
+"Newmail": "file:///System/Library/Audio/UISounds/new-mail.caf",
+"Tock": "file:///System/Library/Audio/UISounds/Tock.caf"
 }
