@@ -1,3 +1,5 @@
+905 Ignore system sounds - needs fixing
+    Added csscolors, list of css colors
 904 Added 7 system sounds for easy reference, just pull the tag in a variable, and send to play sound
     ReceivedMessage,SentMessage,MailSent,Tink,Alarm,NewMail,Tock
     The complete set in JSON on the GitHub site.
