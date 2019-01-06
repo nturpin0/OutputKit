@@ -23,7 +23,8 @@ Shortcuts that use OutputKit
 ## How to set tags
 ![Video](https://github.com/nturpin0/OutputKit/raw/master/Images/OKDIctionary.gif) 
 
-## List Menus
+## Menu Lists
+These are for creating lists containing pictures which can then be used like a menu to make a selection. It's important that they all remain on the same line (although it will of course wrap on the screen) with no carraige returns between them. All tags must be used, ie even if not using the Subtitle.
 - ml.   mlsub (required even if not using.  /ml. no images currently (exp)
 
 ![Picture](https://github.com/nturpin0/OutputKit/raw/master/Images/IMG_0825.png)
@@ -76,9 +77,9 @@ Example of a button with a badge inside.
 
 ![Picture](https://github.com/nturpin0/OutputKit/raw/master/Images/IMG_0828.png)
 
-### Unsupported currently
-- responsivetable    /responsivetable
-- badgewarning    /badgewarning
+### Tables
+- table    /table
+
 
 ### Media
 - imgb64  /imgb64
