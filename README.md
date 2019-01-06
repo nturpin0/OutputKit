@@ -1,15 +1,6 @@
 # OutputKit
 For making nicer looking Shortcuts
 
-OutputKit is a json file that makes marking up difficult things a bit easier. In order to use it you need to refer to the variable that you put the json into eg OutputKit, change the variable into a dictionary, then enter one of the tags as the key.
-
-## OutputKit Shortcuts
-[OutputKit Build](https://routinehub.co/shortcut/1221) - For getting the latest tags, copying them and html templates to your project
-
-[OutputKit Template](https://routinehub.co/shortcut/1220) - A template of actions you can use as a starting point to build your Shortcuts with 
-
-[OutputKit Examples](https://routinehub.co/shortcut/1219) - Commented examples of how to use different OutputKit components
-
 ## OutputKit Showcase
 Shortcuts that use OutputKit
 - [PowR](https://routinehub.co/shortcut/1430) - A shortcut to add text, audio, image, video and more content to your reminders!
@@ -20,6 +11,9 @@ Shortcuts that use OutputKit
 - [News Search](https://routinehub.co/shortcut/836) - Will search several news sources for any articles matching the keyword.
 - [Rain](https://routinehub.co/shortcut/1222) - Check the probability of rain for the day
 
+## OutputKit Getting Started
+OutputKit is a bit of JSON (a dictionary in the form of text) that contains the markup for Bootstrap componnents, you put into a variable at the start of your Shortcut. You can then refer to the different elements with the tags listed below. It's best to look at the [OutputKit Examples](https://routinehub.co/shortcut/1219) Shortcut to get an idea of how it works, then to start with the [OutputKit Template](https://routinehub.co/shortcut/1220) to start making your own. Once you have a better idea, you can create you're own html templates, or update to the latest set of tags using the [OutputKit Build](https://routinehub.co/shortcut/1221) Shortcut.
+
 ## How to set tags
 Shown here is choosing the variable you've assigned the OutputKit json to, and entering the corresponding key/OutputKit tag.
 
@@ -27,29 +21,41 @@ Shown here is choosing the variable you've assigned the OutputKit json to, and e
 
 ## Menu Lists
 These are for creating lists containing pictures which can then be used like a menu to make a selection. It's important that they all remain on the same line (although it will of course wrap on the screen) with no carraige returns between them. All tags must be used, ie even if not using the Subtitle.
+You might notice that another dictionary item is used Media. It's sometimes a good idea to have a dictionary at the beginning of your Shortcut contatining a dictionary with any media items like an image, or sounds at the beginning of your Shortcut.
+
 - ml.   mlsub (required even if not using.  /ml. no images currently (exp)
 
 ![Picture](https://github.com/nturpin0/OutputKit/raw/master/Images/IMG_0825.png)
 
 ## Bars
-
+- bar /bar
+Bars are simple percentage lines. The first number you put is the text displayed, the second one inside the tags is the number used to work out what is shown.
+![Picture](https://github.com/nturpin0/OutputKit/raw/master/Images/IMG_0832.png)
 
 ## CSS/html
 ### Tags
+A Jumbotron is a big banner usually used at the top of your page.
 - jumbotron    /jumbotron
 
 ![Picture](https://github.com/nturpin0/OutputKit/raw/master/Images/IMG_0827.png)
 
 ### Lists
+Groups of list items should be enclosed in a listgroup tag.
 - listitem    /listitem
 - listgroup   /listgroup
 
 ### Cards
-- card      /card
+- card      /card  
 - cardbody   /cardbody
 - cardtext   /cardtext
 - cardheader   /cardheader
 - card link?
+
+Different color cards are all closed by 
+- cardred /card
+- cardblue /card
+- cardyellow /card
+- cardblack /card
 
 ### Links
 - link    linkname   /link 
@@ -80,13 +86,15 @@ Example of a button with a badge inside.
 ![Picture](https://github.com/nturpin0/OutputKit/raw/master/Images/IMG_0828.png)
 
 ### Tables
+The table tag will make your table responsive, ie works better on mobile screens of variable sizes. You wont need the normal table html tag, you can use the thead tbody th tr html mark up to make your table, or you can use Markdown to generate your table first. If you're just making a static table you might find this site useful. https://www.tablesgenerator.com/html_tables
+
 - table    /table
 
 
 ### Media
-- imgb64  /imgb64
-- vidb64  /vidb6
-- audb64  /audb64
+- Images imgb64  /imgb64
+- Video vidb64  /vidb6
+- Audio audb64  /audb64
 
 ![Picture](https://github.com/nturpin0/OutputKit/raw/master/Images/IMG_0829.png)
 
@@ -106,8 +114,11 @@ These are used mostly by the template builder, and you dont need to know them, u
 - viewport - sets up the page
 - bootstrapminimal - for including the bootstrap files
 - webapp - for when creating a page with no address bar, eg like a home screen launcher
-- topbarspace
-- fa:icon
-- md:icon
-- disableselection
-- disablezoom
+- topbarspace - adds space needed for a navbar
+- fa:icon - The includes for Font Awesome icons
+- md:icon - The includes for Material Design
+- disableselection - Disables selection of text in the web page
+- disablezoom - Disables zooming of web page
+
+
+![Made with OutputKit](https://raw.githubusercontent.com/nturpin0/OutputKit/master/Made%20with%20OutputKit%20Logo.png)
