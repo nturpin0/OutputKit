@@ -20,6 +20,8 @@ Shortcuts that use OutputKit
 - [News Search](https://routinehub.co/shortcut/836) - Will search several news sources for any articles matching the keyword.
 - [Rain](https://routinehub.co/shortcut/1222) - Check the probability of rain for the day
 
+## How to set tags
+![Video](https://imgur.com/a/vwme7Ov)
 
 ## List Menus
 
