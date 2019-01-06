@@ -21,7 +21,7 @@ Shortcuts that use OutputKit
 - [Rain](https://routinehub.co/shortcut/1222) - Check the probability of rain for the day
 
 ## How to set tags
-![Video](https://imgur.com/a/vwme7Ov)
+[Video](https://imgur.com/a/vwme7Ov) showing how to set tags.
 
 ## List Menus
 
