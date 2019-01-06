@@ -24,9 +24,8 @@ Shortcuts that use OutputKit
 [Video](https://imgur.com/a/vwme7Ov) showing how to set tags.
 
 ## List Menus
-
-- mlcolors for putting in a list and sending to a choose from list
 - ml.   mlsub (required even if not using.  /ml. no images currently (exp)
+![Picture](https://github.com/nturpin0/OutputKit/raw/master/Images/IMG_0825.png)
 
 ## Bars
 
@@ -34,6 +33,7 @@ Shortcuts that use OutputKit
 ## CSS/html
 ### Tags
 - jumbotron    /jumbotron
+![Picture](https://github.com/nturpin0/OutputKit/raw/master/Images/IMG_0827.png)
 
 ### Lists
 - listitem    /listitem
@@ -58,6 +58,7 @@ Shortcuts that use OutputKit
 - badgelight     /badge
 - badgeblack    /badge
 - topbar   /topbar
+![Picture](https://github.com/nturpin0/OutputKit/raw/master/Images/IMG_0826.png)
 
 ### Buttons
 - button /button
@@ -68,17 +69,25 @@ Shortcuts that use OutputKit
 - buttonred    /button 
 - buttonblack  /button
 
+Example of a button with a badge inside.
+![Picture](https://github.com/nturpin0/OutputKit/raw/master/Images/IMG_0828.png)
+
 ### Unsupported currently
 - responsivetable    /responsivetable
 - badgewarning    /badgewarning
 
 ### Media
 - imgb64  /imgb64
+![Picture](https://github.com/nturpin0/OutputKit/raw/master/Images/IMG_0829.png)
 - vidb64  /vidb6
 - audb64  /audb64
 
 ### Icons
 MD & FA ?
+Example of how to show an icon using Material Design
+![Picture](https://github.com/nturpin0/OutputKit/raw/master/Images/IMG_0830.png)
+Example of how to show an icon using Font Awesome
+![Picture](https://github.com/nturpin0/OutputKit/raw/master/Images/IMG_0831.png)
 
 ### inc:
 These are used mostly by the template builder, and you dont need to know them, unless you've rolled your sleeves up to get a look under the hood.
