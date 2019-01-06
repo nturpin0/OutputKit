@@ -21,6 +21,8 @@ Shortcuts that use OutputKit
 - [Rain](https://routinehub.co/shortcut/1222) - Check the probability of rain for the day
 
 ## How to set tags
+Shown here is choosing the variable you've assigned the OutputKit json to, and entering the corresponding key/OutputKit tag.
+
 ![Video](https://github.com/nturpin0/OutputKit/raw/master/Images/OKDIctionary.gif) 
 
 ## Menu Lists
