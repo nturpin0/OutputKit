@@ -23,7 +23,7 @@ Shown here is choosing the variable you've assigned the OutputKit json to, and e
 These are for creating lists containing pictures which can then be used like a menu to make a selection. It's important that they all remain on the same line (although it will of course wrap on the screen) with no carraige returns between them. All tags must be used, ie even if not using the Subtitle.
 You might notice that another dictionary item is used Media. It's sometimes a good idea to have a dictionary at the beginning of your Shortcut contatining a dictionary with any media items like an image, or sounds at the beginning of your Shortcut.
 
-- ml.   mlsub (required even if not using.  /ml. no images currently (exp)
+- ml   mlsub (required even if not using.  /ml. no images currently (exp)
 
 ![Picture](https://github.com/nturpin0/OutputKit/raw/master/Images/IMG_0825.png)
 
