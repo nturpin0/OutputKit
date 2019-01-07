@@ -32,8 +32,7 @@ You might notice that another dictionary item is used Media. It's sometimes a go
 Bars are simple percentage lines. The first number you put is the text displayed, the second one inside the tags is the number used to work out what is shown.
 ![Picture](https://github.com/nturpin0/OutputKit/raw/master/Images/IMG_0832.png)
 
-## CSS/html
-### Tags
+### Jumbotron
 A Jumbotron is a big banner usually used at the top of your page.
 - jumbotron    /jumbotron
 
