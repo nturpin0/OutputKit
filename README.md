@@ -3,7 +3,7 @@ For making nicer looking Shortcuts
 
 ## OutputKit Showcase
 Shortcuts that use OutputKit
-- [PowR](https://routinehub.co/shortcut/1430) - A shortcut to add text, audio, image, video and more content to your reminders!
+- [PowR](https://routinehub.co/shortcut/1430) - A shortcut to add text, audio, image, video and more content to your reminders! by [/u/matthewr_1987](https://www.reddit.com/user/matthewr_1987)
 - [EXIF Details](https://routinehub.co/shortcut/913) - Displays EXIF data for a photo sent from a share sheet, or if no photo is sent will use the photo selected.
 - [Short Weather](https://www.reddit.com/r/shortcuts/comments/abn8mp/i_wanted_to_play_around_with_outputkit_so_i_made/) - Weather Shortcut
 - [Tatort](https://www.reddit.com/r/shortcuts/comments/9ze26m/tatort_viewer/) - for Tatort fans, a traditional german crime tv show from public television
@@ -30,7 +30,7 @@ You might notice that another dictionary item is used Media. It's sometimes a go
 ### Bars
 - bar /bar
 Bars are simple percentage lines. The first number you put is the text displayed, the second one inside the tags is the number used to work out what is shown.
-![Picture](https://github.com/nturpin0/OutputKit/raw/master/Images/IMG_0832.png)
+![Picture](https://github.com/nturpin0/OutputKit/raw/master/Images/IMG_0832.jpg)
 
 ### Jumbotron
 A Jumbotron is a big banner usually used at the top of your page.
@@ -50,6 +50,8 @@ Groups of list items should be enclosed in a listgroup tag.
 - listgroup   /listgroup
 
 ### Cards
+![Cards](https://github.com/nturpin0/OutputKit/raw/master/Images/Cards.jpg)
+
 - card      /card  
 - cardbody   /cardbody
 - cardtext   /cardtext
@@ -66,6 +68,8 @@ Different color cards are all closed by
 - link    linkname   /link 
 
 ### Badges
+![Badges](https://github.com/nturpin0/OutputKit/raw/master/Images/Badges.jpg)
+
 - badgeblue    /badge
 - badgegray     /badge
 - badgegreen   /badge
@@ -76,6 +80,8 @@ Different color cards are all closed by
 
 
 ### Buttons
+![Buttons](https://github.com/nturpin0/OutputKit/raw/master/Images/Buttons.jpg)
+
 - button /button
 - buttonblue  /button
 - buttondark     /button
@@ -85,7 +91,7 @@ Different color cards are all closed by
 - buttonblack  /button
 
 Example of a button with a badge inside.
-
+![Picture](https://github.com/nturpin0/OutputKit/raw/master/Images/IMG_0836%202.jpg)
 ![Picture](https://github.com/nturpin0/OutputKit/raw/master/Images/IMG_0828.png)
 
 ### Tables
@@ -123,5 +129,5 @@ These are used mostly by the template builder, and you dont need to know them, u
 - disableselection - Disables selection of text in the web page
 - disablezoom - Disables zooming of web page
 
-
+Logo by [Rop](https://routinehub.co/user/ROP)
 ![Made with OutputKit](https://raw.githubusercontent.com/nturpin0/OutputKit/master/Made%20with%20OutputKit%20Logo%20small.png)
