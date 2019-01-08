@@ -1,4 +1,4 @@
-# OutputKit
+![Logo](https://github.com/nturpin0/OutputKit/raw/master/Images/OutputKit%20Logo%20No%20Message.png)# OutputKit
 For making nicer looking Shortcuts
 
 ## OutputKit Showcase
@@ -30,6 +30,7 @@ You might notice that another dictionary item is used Media. It's sometimes a go
 ### Bars
 - bar /bar
 Bars are simple percentage lines. The first number you put is the text displayed, the second one inside the tags is the number used to work out what is shown.
+
 ![Picture](https://github.com/nturpin0/OutputKit/raw/master/Images/IMG_0832.jpg)
 
 ### Jumbotron
@@ -40,8 +41,8 @@ A Jumbotron is a big banner usually used at the top of your page.
 
 ### Topbar
 A sticky header at the top of the page.
-
 - topbar   /topbar
+
 ![Picture](https://github.com/nturpin0/OutputKit/raw/master/Images/IMG_0826.png)
 
 ### Lists
@@ -92,8 +93,10 @@ Different color cards are all closed by
 
 Example of a button with a badge inside.
 
-![Picture](https://github.com/nturpin0/OutputKit/raw/master/Images/IMG_0836%202.jpg)
 ![Picture](https://github.com/nturpin0/OutputKit/raw/master/Images/IMG_0828.png)
+
+![Picture](https://github.com/nturpin0/OutputKit/raw/master/Images/IMG_0836%202.jpg)
+
 
 ### Tables
 The table tag will make your table responsive, ie works better on mobile screens of variable sizes. You wont need the normal table html tag, you can use the thead tbody th tr html mark up to make your table, or you can use Markdown to generate your table first. If you're just making a static table you might find this site useful. https://www.tablesgenerator.com/html_tables
