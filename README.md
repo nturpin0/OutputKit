@@ -54,11 +54,12 @@ Groups of list items should be enclosed in a listgroup tag.
 - listitem    /listitem
 - listgroup   /listgroup
 
-ie 
-'''<listgroup>
+```
+<listgroup>
   <listitem>Apples</listitem>
   <listitem>Pears</listitem>
-</listgroup>'''
+</listgroup>
+```
 
 ### Cards
 ![Cards](https://github.com/nturpin0/OutputKit/raw/master/Images/Cards.jpg)
@@ -75,11 +76,12 @@ Different color cards are all closed by /card
 - cardyellow /card
 - cardblack /card
 
-eg
+```
 <card>
 <cardheader>Card Title</cardheader>
 
 </card>
+```
 
 ### Links
 Three tags are needed for links <link>https://www.apple.com<linkname>Apple</link>
@@ -114,8 +116,10 @@ Example of a button with a badge inside.
 
 ![Picture](https://github.com/nturpin0/OutputKit/raw/master/Images/IMG_0836%202.jpg)
 
-eg
+
+```
 <buttonblue>Unread Mail <badgegray>4</badge></button>
+```
 
 ### Tables
 The table tag will make your table responsive, ie works better on mobile screens of variable sizes. You wont need the normal table html tag, you can use the thead tbody th tr html mark up to make your table, or you can use Markdown to generate your table first. If you're just making a static table you might find this site useful. https://www.tablesgenerator.com/html_tables
