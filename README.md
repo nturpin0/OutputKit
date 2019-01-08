@@ -48,7 +48,7 @@ A sticky header at the top of the page.
 
 ### Lists
 
-![Picture](https://github.com/nturpin0/OutputKit/raw/master/Images/IMG_0839.png)
+![Picture](https://github.com/nturpin0/OutputKit/raw/master/Images/IMG_0839.jpg)
 
 Groups of list items should be enclosed in a listgroup tag.
 - listitem    /listitem
