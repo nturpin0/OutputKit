@@ -70,6 +70,7 @@ Different color cards are all closed by
 - cardblack /card
 
 ### Links
+Three tags are needed for links <link>https://www.apple.com<linkname>Apple</link>
 - link    linkname   /link 
 
 ### Badges
