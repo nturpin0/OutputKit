@@ -2,11 +2,13 @@
 # OutputKit
 For making nicer looking Shortcuts
 
+Special thanks to [/u/matthewr_1987](https://www.reddit.com/user/matthewr_1987) for using OutputKit in his Powr Shortcut, and all the promotion/support, and to [Rop](https://routinehub.co/user/ROP) for sorting out my logo
+
 ## OutputKit Showcase
 Shortcuts that use OutputKit
 - [PowR](https://routinehub.co/shortcut/1430) - A shortcut to add text, audio, image, video and more content to your reminders! by [/u/matthewr_1987](https://www.reddit.com/user/matthewr_1987)
 - [EXIF Details](https://routinehub.co/shortcut/913) - Displays EXIF data for a photo sent from a share sheet, or if no photo is sent will use the photo selected.
-- [Short Weather](https://www.reddit.com/r/shortcuts/comments/abn8mp/i_wanted_to_play_around_with_outputkit_so_i_made/) - Weather Shortcut by [/u/Jpasholk](https://www.reddit.com/user/Jpasholk)
+- [Short Weather](https://routinehub.co/shortcut/1469) - Weather Shortcut by [/u/Jpasholk](https://www.reddit.com/user/Jpasholk)
 - [Tatort](https://www.reddit.com/r/shortcuts/comments/9ze26m/tatort_viewer/) - for Tatort fans, a traditional german crime tv show from public television [/u/marco79cgn](https://www.reddit.com/user/marco79cgn)
 - [Trello Status](https://routinehub.co/shortcut/1243) - For visualising the status of all your Trello boards
 - [News Search](https://routinehub.co/shortcut/836) - Will search several news sources for any articles matching the keyword.
@@ -84,8 +86,10 @@ Different color cards are all closed by /card
 ```
 
 ### Links
-Three tags are needed for links <link>https://www.apple.com<linkname>Apple</link>
-- link    linkname   /link 
+Three tags are needed for links 
+```
+<link>https://www.apple.com<linkname>Apple</link>
+```
 
 ### Badges
 ![Badges](https://github.com/nturpin0/OutputKit/raw/master/Images/Badges.jpg)
@@ -122,7 +126,7 @@ Example of a button with a badge inside.
 ```
 
 ### Tables
-The table tag will make your table responsive, ie works better on mobile screens of variable sizes. You wont need the normal table html tag, you can use the thead tbody th tr html mark up to make your table, or you can use Markdown to generate your table first. If you're just making a static table you might find this site useful. https://www.tablesgenerator.com/html_tables
+The table tag will make your table responsive, ie works better on mobile screens of variable sizes. You wont need the normal table html tag, you can use the thead tbody th tr html mark up to make your table, or you can use Markdown to generate your table first. If you're just making a static table you might find [this site](https://www.tablesgenerator.com/html_tables) useful. 
 
 - table    /table
 
@@ -136,7 +140,6 @@ The table tag will make your table responsive, ie works better on mobile screens
 
 
 ### Icons
-MD & FA ?
 Example of how to show an icon using [Material Design](https://material.io/tools/icons/)
 
 ![Picture](https://github.com/nturpin0/OutputKit/raw/master/Images/IMG_0830.png)
