@@ -1,5 +1,6 @@
 {
-  "version": ".905",
+  "version": ".906",
+  "mlnote":"\r\nNOTE:",
   "cardtext": " <p class=\"card-text\">",
   "/cardbody": "</div>",
   "/link": "</a>",
