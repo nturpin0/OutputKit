@@ -45,6 +45,8 @@ Buttons are usually used to activate an action or a link, but they can also be u
 
 
 ### Cards
+
+![](https://github.com/nturpin0/OutputKit/raw/master/Images/Cards.jpg)
 All elements for a card, header, text etc should be containted within the card tags. 
 
 - card      /card  
@@ -60,7 +62,6 @@ All elements for a card, header, text etc should be containted within the card t
 </card>
 ```
 
-![](https://github.com/nturpin0/OutputKit/raw/master/Images/Cards.jpg)
 
 
 #### Color Cards
@@ -90,7 +91,9 @@ A Jumbotron is a big banner usually used at the top of your page.
 ![](https://github.com/nturpin0/OutputKit/raw/master/Images/IMG_0827.png)
 
 ### Lists
+![](https://github.com/nturpin0/OutputKit/raw/master/Images/IMG_0839.jpg)
 Groups of list items should be enclosed in a listgroup tag.
+
 - listitem    /listitem
 - listgroup   /listgroup
 
@@ -101,7 +104,6 @@ Groups of list items should be enclosed in a listgroup tag.
 </listgroup>
 '''
 
-![](https://github.com/nturpin0/OutputKit/raw/master/Images/IMG_0839.jpg)
 
 
 
