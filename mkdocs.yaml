@@ -1,4 +1,4 @@
-site_name: MkLorum
+site_name: OutputKit
 nav:
     - Getting Started: index.md
     - ml tags: mltags.md
