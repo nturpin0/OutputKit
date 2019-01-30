@@ -6,7 +6,9 @@ For making nicer looking Shortcuts
 OutputKit is a bit of JSON (a dictionary in the form of text) that contains the markup for [Bootstrap components](https://getbootstrap.com/docs/4.0/components/alerts/)  , you put into a variable at the start of your Shortcut.
 
 
-### Getting started with the template.
+### Getting started
+
+### Using the template
 To get started its best to take the Template Shortcut and just start a shortcut from there.
 If youre adding it your own Shortcut youve already made, you will probably want to use Builder to add tags and a html template to your Shortcut.
 
