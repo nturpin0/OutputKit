@@ -17,23 +17,30 @@ A Jumbotron is a big banner usually used at the top of your page.
 ![](https://github.com/nturpin0/OutputKit/raw/master/Images/IMG_0827.png)
 
 ### Lists
-
-![](https://github.com/nturpin0/OutputKit/raw/master/Images/IMG_0839.jpg)
-
 Groups of list items should be enclosed in a listgroup tag.
 - listitem    /listitem
 - listgroup   /listgroup
 
-
+'''
 <listgroup>
   <listitem>Apples</listitem>
   <listitem>Pears</listitem>
 </listgroup>
+'''
+
+![](https://github.com/nturpin0/OutputKit/raw/master/Images/IMG_0839.jpg)
+
+
 
 
 ### Cards
-All elements for a card, header, text etc should be containted within the card tags. All cards, no matter which color should be closed with the /card tag.
+All elements for a card, header, text etc should be containted within the card tags. 
 
+- card      /card  
+- cardbody   /cardbody
+- cardtext   /cardtext
+- cardheader   /cardheader
+- card link?
 
 ```
 <card>
@@ -44,13 +51,10 @@ All elements for a card, header, text etc should be containted within the card t
 
 ![](https://github.com/nturpin0/OutputKit/raw/master/Images/Cards.jpg)
 
-- card      /card  
-- cardbody   /cardbody
-- cardtext   /cardtext
-- cardheader   /cardheader
-- card link?
 
 #### Color Cards
+All cards, no matter which color should be closed with the /card tag.
+
 - cardred /card
 - cardblue /card
 - cardyellow /card
@@ -80,16 +84,16 @@ All elements for a card, header, text etc should be containted within the card t
 - buttonred    /button 
 - buttonblack  /button
 
-Example of a button with a badge inside.
+#### Example of a button with a badge inside.
+```
+<buttonblue>Unread Mail <badgegray>4</badge></button>
+```
 
 ![](https://github.com/nturpin0/OutputKit/raw/master/Images/IMG_0828.png)
 
 ![](https://github.com/nturpin0/OutputKit/raw/master/Images/IMG_0836%202.jpg)
 
 
-```
-<buttonblue>Unread Mail <badgegray>4</badge></button>
-```
 
 ### Tables
 The table tag will make your table responsive, ie works better on mobile screens of variable sizes. You wont need the normal table html tag, you can use the thead tbody th tr html mark up to make your table, or you can use Markdown to generate your table first. If you're just making a static table you might find [this site](https://www.tablesgenerator.com/html_tables) useful for generating tables. 
