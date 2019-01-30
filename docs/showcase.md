@@ -19,6 +19,7 @@ for Tatort fans, a traditional german crime tv show from public television [/u/m
 For visualising the status of all your Trello boards
 
 ## [News Search](https://routinehub.co/shortcut/836) 
+![](/showcase/Image-2.png)
 Will search several news sources for any articles matching the keyword.
 
 ## [Rain](https://routinehub.co/shortcut/1222)
