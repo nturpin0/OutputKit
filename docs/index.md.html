@@ -27,17 +27,21 @@ Shown here is choosing the variable you've assigned the OutputKit jshttps://casu
 - Menu Lists
 - Web Components
 
-## menulist Tags
-These are for creating lists containing pictures which can then be used like a menu to make a selection. It's important that they all remain on the same line (although it will of course wrap on the screen) with no carraige returns between them. All tags must be used, ie even if not using the Subtitle. 
+## Menu List
+These are for creating lists containing pictures which can then be used like a menu to make a selection. It's important that they each tag and content remain on the same line for each entry being made in the list.
+(although it will of course wrap on the screen) with no carraige returns between them. All tags must be used, ie even if not using the Subtitle. 
 
-It's often useful to put any images/sounds and other big/reused items in dictionary at the top of your shortcut, and it keeps the text window clear of long strings.
+It's often useful to put any images/sounds and other big/reused items in dictionary at the top of your shortcut, and it keeps the text window clear of long strings. So when it comes to adding an image you can just type it.
+
 
 ### tags
 
 - (ml)Title(mlsub)Subtitle(mlimage)base64encoded(/ml) 
 
 Title is the Main title of the list item
-Subtitle is the smaller black lettering underneath the Title of the list menu item. 
+Subtitle is the smaller black lettering underneath the Title of the list menu item.
+base64encoded will be a base 64 encoded image as text or a variable cotaining the text
+
 
 
 ml
@@ -68,9 +72,7 @@ get image from site, and edit text below fo rcontext
 #### Advanced
 You can store additional information in VCARDS in other fields used by the CARDS for example if the menu had colour names in the Name field, you could have RGB/HEX values in other fields that you dont want displayed, but you want to retrieve later.
 
-A text editor is essential if you want to re-order/remove or change the cards, some text editors will have a reorganise function that automatically identifies blocks of text and lets you drag/drop them into new orders.
-
-If you end up just typing/copy pasting your own in Shortcuts, having all your images in one dictionary at the beginning is a neat way to organise your Shortcut.
+You can add variables in the text in side the tags, eg to add a count result to a subtitle
 
 More information on menu lists here [here](https://nturpin0.github.io/appsupport/MenuBuilder/about.html) and [here](https://www.reddit.com/r/shortcuts/comments/aibvkg/creating_visually_appealing_menus/)
 
@@ -81,7 +83,7 @@ This is a set of colors that are held in a mlmenu to add this to
 
 
 
-## Web page tags
+## Components
 
 
 ### bars
