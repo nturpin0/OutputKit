@@ -4,8 +4,10 @@ Most web tags need to be closed off ie /jumbotron, /bar, youll often find this i
 
 
 ### Bars
-- bar /bar
 Bars are simple percentage lines. The first number you put is the text displayed, the second one inside the tags is the number used to work out what is shown.
+
+- bar /bar
+
 
 ![](https://github.com/nturpin0/OutputKit/raw/master/Images/IMG_0832.jpg)
 
@@ -45,9 +47,8 @@ Buttons are usually used to activate an action or a link, but they can also be u
 
 
 ### Cards
-
+You can put icons in the title, or use html tags like <h1> to set the size.
 ![](https://github.com/nturpin0/OutputKit/raw/master/Images/Cards.jpg)
-All elements for a card, header, text etc should be containted within the card tags. 
 
 - card      /card  
 - cardbody   /cardbody
@@ -55,6 +56,7 @@ All elements for a card, header, text etc should be containted within the card t
 - cardheader   /cardheader
 - card link?
 
+All elements for a card, header, text etc should be containted within the card tags. 
 ```
 <card>
 <cardheader>Card Title</cardheader>
@@ -80,13 +82,6 @@ If using [Material Design](https://material.io/tools/icons/), or [Font Awesome](
 
 - Font Awesome
 ![](https://github.com/nturpin0/OutputKit/raw/master/Images/IMG_0831.png)
-
-
-### Jumbotron
-A Jumbotron is a big banner usually used at the top of your page.
-- jumbotron    /jumbotron
-
-![](https://github.com/nturpin0/OutputKit/raw/master/Images/IMG_0827.png)
 
 ### Lists
 ![](https://github.com/nturpin0/OutputKit/raw/master/Images/IMG_0839.jpg)
@@ -130,3 +125,5 @@ The table tag will make your table responsive, ie works better on mobile screens
 
 
 
+### Depreciated Tags
+Jumbotron - card can be used, and is more flexible.
