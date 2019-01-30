@@ -4,26 +4,22 @@
 OutputKit is a bit of JSON (a dictionary in the form of text) that contains the markup for [Bootstrap components](https://getbootstrap.com/docs/4.0/components/alerts/)  , you put into a variable at the start of your Shortcut.
 
 
-
-
 ## Starting with the template shortcut
 To get started its best to take the [OutputKit Template](https://routinehub.co/shortcut/1220) Shortcut and just start a shortcut from there. It already has all the actions in that you need to use and create something with OutputKit. You can always update the tags, or make a different html template with [OutputKit Build](https://routinehub.co/shortcut/1221).
 
 
-## Adding OutputKit to your Shortcut with Build Shortcut
-Using the [OutputKit Build](https://routinehub.co/shortcut/1221) Shortcut, you can create your own html template or copy the json text to include at the top of your Shortcut. 
-
-It checks for any updates to the tags and will flag if they are available. Always read the updates notes as a tag you use could change, its best not to update tags on old projects.
+## Starting with your own Shortcut
+Using the [OutputKit Build](https://routinehub.co/shortcut/1221) Shortcut, you can create your own html template and copy the json text you'll need to include at the top of your Shortcut. 
 
 ### Copying tags to your Shortcut
-The json text should be copied into a text box, then Get Dictionary from Input, then a variable name, examples are all in a variable called OutputKit. 
+The json text should be copied into a text box, then Get Dictionary from Input, then a variable name. 
 
 ### Building a html template
-If your starting with the OutputKit Template youve already have an html template and wont need to do this unless you want to use ???
+Building a template youll be asked what to include, you can always repeat the process later if you change your mind.
 
-To build a html template you can use the OutputKit Build tool.
+Once youve added to the Shortcut will need to have to insert a variable containng output from your Shortcut.
 
-The html template should be copied into a text box and then displayed, there are several ways of doing this, quickview, View Web Page or opening in Safari using a data URI. You will need to insert the output you want to refer to into the heml template, you'll find its often better to split your content into several text boxes to make it easier to edit.
+The html template should be copied into a text box and then usually displayed, there are several ways of doing this, quickview, View Web Page or opening in Safari using a data URI. 
 
 
 ## Adding images and other media
