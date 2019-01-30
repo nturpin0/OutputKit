@@ -25,7 +25,7 @@ mlnote
 ## mlcolors
 mlcolors is a slightly different tags, it contains all the markup and images for a menu with a set of css colors with single names, selecting a color returns the css color name. It doesnt need any closing tag.
 
-## Additional to your Shortcut
+## Adding to your Shortcut
 Add the actions below to display the list menu in your Shortcut
 
 ```
