@@ -9,56 +9,6 @@ Bars are simple percentage lines. The first number you put is the text displayed
 
 ![](https://github.com/nturpin0/OutputKit/raw/master/Images/IMG_0832.jpg)
 
-### Jumbotron
-A Jumbotron is a big banner usually used at the top of your page.
-- jumbotron    /jumbotron
-
-![](https://github.com/nturpin0/OutputKit/raw/master/Images/IMG_0827.png)
-
-### Lists
-Groups of list items should be enclosed in a listgroup tag.
-- listitem    /listitem
-- listgroup   /listgroup
-
-'''
-<listgroup>
-  <listitem>Apples</listitem>
-  <listitem>Pears</listitem>
-</listgroup>
-'''
-
-![](https://github.com/nturpin0/OutputKit/raw/master/Images/IMG_0839.jpg)
-
-
-
-
-### Cards
-All elements for a card, header, text etc should be containted within the card tags. 
-
-- card      /card  
-- cardbody   /cardbody
-- cardtext   /cardtext
-- cardheader   /cardheader
-- card link?
-
-```
-<card>
-<cardheader>Card Title</cardheader>
-
-</card>
-```
-
-![](https://github.com/nturpin0/OutputKit/raw/master/Images/Cards.jpg)
-
-
-#### Color Cards
-All cards, no matter which color should be closed with the /card tag.
-
-- cardred /card
-- cardblue /card
-- cardyellow /card
-- cardblack /card
-
 
 ### Badges
 ![](https://github.com/nturpin0/OutputKit/raw/master/Images/Badges.jpg)
@@ -94,22 +44,32 @@ Buttons are usually used to activate an action or a link, but they can also be u
 ![](https://github.com/nturpin0/OutputKit/raw/master/Images/IMG_0836%202.jpg)
 
 
+### Cards
+All elements for a card, header, text etc should be containted within the card tags. 
 
-### Tables
-The table tag will make your table responsive, ie works better on mobile screens of variable sizes. You wont need the normal table html tag, you can use the thead tbody th tr html mark up to make your table, or you can use Markdown to generate your table first. If you're just making a static table you might find [this site](https://www.tablesgenerator.com/html_tables) useful for generating tables. 
+- card      /card  
+- cardbody   /cardbody
+- cardtext   /cardtext
+- cardheader   /cardheader
+- card link?
 
-- table    /table
+```
+<card>
+<cardheader>Card Title</cardheader>
+
+</card>
+```
+
+![](https://github.com/nturpin0/OutputKit/raw/master/Images/Cards.jpg)
 
 
-### Media
-Any media needs to be a base 64 encoded text/variable, Video creates a very large piece of Base64 text and you wont work well with large videos.
+#### Color Cards
+All cards, no matter which color should be closed with the /card tag.
 
-- Images imgb64  /imgb64
-- Video vidb64  /vidb6
-- Audio audb64  /audb64
-
-![](https://github.com/nturpin0/OutputKit/raw/master/Images/IMG_0829.png)
-
+- cardred /card
+- cardblue /card
+- cardyellow /card
+- cardblack /card
 
 ### Icons
 If using [Material Design](https://material.io/tools/icons/), or [Font Awesome](https://fontawesome.com) icons, you must remember to make sure you set the includes in the html template using the OutputKit Build Shortcut.
@@ -123,8 +83,50 @@ If using [Material Design](https://material.io/tools/icons/), or [Font Awesome](
 ![](https://github.com/nturpin0/OutputKit/raw/master/Images/IMG_0831.png)
 
 
+### Jumbotron
+A Jumbotron is a big banner usually used at the top of your page.
+- jumbotron    /jumbotron
+
+![](https://github.com/nturpin0/OutputKit/raw/master/Images/IMG_0827.png)
+
+### Lists
+Groups of list items should be enclosed in a listgroup tag.
+- listitem    /listitem
+- listgroup   /listgroup
+
+'''
+<listgroup>
+  <listitem>Apples</listitem>
+  <listitem>Pears</listitem>
+</listgroup>
+'''
+
+![](https://github.com/nturpin0/OutputKit/raw/master/Images/IMG_0839.jpg)
+
+
+
+
 ### Links
 Three tags can be needed for link, you can use html if you prefer.
 ```
 <link>https://www.apple.com<linkname>Apple</link>
 ```
+
+### Media
+Any media needs to be a base 64 encoded text/variable, Video creates a very large piece of Base64 text and you wont work well with large videos.
+
+- Images imgb64  /imgb64
+- Video vidb64  /vidb6
+- Audio audb64  /audb64
+
+![](https://github.com/nturpin0/OutputKit/raw/master/Images/IMG_0829.png)
+
+
+### Tables
+The table tag will make your table responsive, ie works better on mobile screens of variable sizes. You wont need the normal table html tag, you can use the thead tbody th tr html mark up to make your table, or you can use Markdown to generate your table first. If you're just making a static table you might find [this site](https://www.tablesgenerator.com/html_tables) useful for generating tables. 
+
+- table    /table
+
+
+
+
