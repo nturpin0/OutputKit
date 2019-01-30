@@ -33,3 +33,6 @@ Choose the variable you've assigned the OutputKit dictionary to, and enter a tag
 It's often useful to put any base64 encoded images/sounds and other big/reused items in dictionary at the top of your shortcut, and it keeps the text window clear of long strings. So when it comes to adding an image you can just type it's name.
 Copy and paste the strings into a Dictionary or the Shortcut [Asset Builder](https://routinehub.co/shortcut/1760) can be used to add Base 64 Encoded items as a text json string, just like OutputKit.
 
+
+### Getting started with tags
+You can read more about the tags in the [component](component) and [mltags](mltags.md) sections.
