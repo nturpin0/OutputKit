@@ -1,4 +1,4 @@
-## components
+## Component tags
 Most web tags need to be closed off ie /jumbotron, /bar, youll often find this is why something doesnt look the way it does, and tags will nest inside each other, if you know a small amount of html it will be helpful.
 
 
