@@ -112,13 +112,13 @@ Any media needs to be a base 64 encoded text/variable, Video creates a very larg
 
 
 ### Icons
-If using Material Design, or Font Awesome icons, you must remember to make sure you set the includes in the html template using the OutputKit Build.
+If using [Material Design](https://material.io/tools/icons/), or [Font Awesome](https://fontawesome.com) icons, you must remember to make sure you set the includes in the html template using the OutputKit Build Shortcut.
 
-#### [Material Design](https://material.io/tools/icons/)
+#### Material Design
 
 ![](https://github.com/nturpin0/OutputKit/raw/master/Images/IMG_0830.png)
 
-#### [Font Awesome](https://fontawesome.com)
+#### Font Awesome
 
 ![](https://github.com/nturpin0/OutputKit/raw/master/Images/IMG_0831.png)
 
