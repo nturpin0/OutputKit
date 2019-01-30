@@ -53,12 +53,6 @@ Different color cards are all closed by /card
 </card>
 ```
 
-### links
-Three tags can be needed for link, you can use html if you prefer.
-```
-<link>https://www.apple.com<linkname>Apple</link>
-```
-
 ### badges
 ![](https://github.com/nturpin0/OutputKit/raw/master/Images/Badges.jpg)
 
@@ -115,3 +109,10 @@ Example of how to show an icon using [Material Design](https://material.io/tools
 Example of how to show an icon using [Font Awesome](https://fontawesome.com)
 
 ![](https://github.com/nturpin0/OutputKit/raw/master/Images/IMG_0831.png)
+
+
+### links
+Three tags can be needed for link, you can use html if you prefer.
+```
+<link>https://www.apple.com<linkname>Apple</link>
+```
