@@ -3,6 +3,3 @@
 For making nicer looking Shortcuts
 
 https://outputkit.readthedocs.io/en/latest/
-
-
-![Made with OutputKit](https://raw.githubusercontent.com/nturpin0/OutputKit/master/Made%20with%20OutputKit%20Logo%20small.png)
