@@ -1,6 +1,5 @@
 ## Component tags
-Most web tags need to be closed off ie /jumbotron, /bar, youll often find this is why something doesnt look the way it does, and tags will nest inside each other, if you know a small amount of html it will be helpful.
-
+Most web tags need to be closed off ie /jumbotron, /bar, youll often find this is why something doesnt look the way it does, and tags will nest inside each other, if you know a small amount of html it will be helpful. When you nest things, you can do things like put sounds inside a card.
 
 
 
@@ -85,6 +84,7 @@ All cards, no matter which color should be closed with the /card tag.
 - buttonblack  /button
 
 #### Example of a button with a badge inside.
+Buttons are usually used to activate an action or a link, but they can also be used to display information.
 ```
 <buttonblue>Unread Mail <badgegray>4</badge></button>
 ```
