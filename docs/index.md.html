@@ -38,14 +38,16 @@ These are for creating lists containing pictures which can then be used like a m
 
 It's often useful to put any images/sounds and other big/reused items in dictionary at the top of your shortcut, and it keeps the text window clear of long strings. So when it comes to adding an image you can just type it.
 
+## menulist
 
-### mltags
+### ml tags
+```
+(ml)Title(mlsub)Subtitle(mlimage)base64encoded(/ml) 
+```
 
-- (ml)Title(mlsub)Subtitle(mlimage)base64encoded(/ml) 
-
-Title is the Main title of the list item
-Subtitle is the smaller black lettering underneath the Title of the list menu item.
-base64encoded will be a base 64 encoded image as text or a variable cotaining the text
+- Title is the Main title of the list item
+- Subtitle is the smaller black lettering underneath the Title of the list menu item.
+- base64encoded will be a base 64 encoded image as text or a variable cotaining the text
 
 
 
@@ -61,10 +63,12 @@ mlnote
 ### Additional actions to add to your Shortcut
 Add the actions below to display the list menu in your Shortcut
 
+```
 Text (Paste in the menu you created in Menu Builder)
 Set Name : Menu.vcf
 Get Variable : Set Name (Use a magic variable to point to set name action above, and then select and change the type to contact)
 Choose From List
+```
 
 #### After a selection is made
 If you are using the listmenu to make menus of options you will likely have to use IF Otherwise actions.
@@ -144,7 +148,7 @@ Different color cards are all closed by /card
 ```
 
 ### links
-Three tags are needed for links 
+Three tags can be needed for link, you can use html if you prefer.
 ```
 <link>https://www.apple.com<linkname>Apple</link>
 ```
