@@ -4,7 +4,7 @@
 These are for creating lists containing pictures which can then be used like a menu to make a selection. It's important that they each tag and content remain on the same line for each entry being made in the list.
 (although it will of course wrap on the screen) with no carraige returns between them. All tags must be used, ie even if not using the Subtitle. 
 
-It's often useful to put any images/sounds and other big/reused items in dictionary at the top of your shortcut, and it keeps the text window clear of long strings. So when it comes to adding an image you can just type it.
+
 
 ```
 (ml)Title(mlsub)Subtitle(mlimage)base64encoded(/ml) 
