@@ -1,4 +1,5 @@
 site_name: MkLorum
 nav:
     - Getting Started: index.md
-    - Tags: tags.md
+    - ml tags: mltags.md
+    - Component tags: components.md
