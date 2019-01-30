@@ -1,8 +1,9 @@
 # Getting started
 
 
+OutputKit is a bit of JSON (a dictionary in the form of text) that contains the markup for [Bootstrap components](https://getbootstrap.com/docs/4.0/components/alerts/)  , you put into a variable at the start of your Shortcut.
 
-The html template should be copied into a text box and then displayed, there are several ways of doing this, quickview, View Web Page or opening in Safari using a data URI. You will need to insert the output you want to refer to into the heml template, you'll find its often better to split your content into several text boxes to make it easier to edit.
+
 
 
 ## Starting with the template shortcut
@@ -12,7 +13,7 @@ To get started its best to take the [OutputKit Template](https://routinehub.co/s
 ## Adding OutputKit to your Shortcut with Build Shortcut
 Using the [OutputKit Build](https://routinehub.co/shortcut/1221) Shortcut, you can create your own html template or copy the json text to include at the top of your Shortcut. 
 
-It checks for any updates to the tags and will flag if they are available. Always read the notes as a tag you use could change, its best not to update tags on old projects.
+It checks for any updates to the tags and will flag if they are available. Always read the updates notes as a tag you use could change, its best not to update tags on old projects.
 
 ### Copying tags to your Shortcut
 The json text should be copied into a text box, then Get Dictionary from Input, then a variable name, examples are all in a variable called OutputKit. 
@@ -22,7 +23,7 @@ If your starting with the OutputKit Template youve already have an html template
 
 To build a html template you can use the OutputKit Build tool.
 
-
+The html template should be copied into a text box and then displayed, there are several ways of doing this, quickview, View Web Page or opening in Safari using a data URI. You will need to insert the output you want to refer to into the heml template, you'll find its often better to split your content into several text boxes to make it easier to edit.
 
 
 ## Adding images and other media
