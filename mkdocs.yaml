@@ -6,5 +6,6 @@ nav:
   - Component tags: components.md
   - Shortcuts: shortcuts.md
   - Showcase: showcase.md
+  - Thanks: thanks.md
 theme:
   name: readthedocs
