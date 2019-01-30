@@ -1,118 +1,170 @@
      <meta charset="utf-8" emacsmode="-*- markdown -*-"><link rel="stylesheet" href="https://casual-effects.com/markdeep/latest/apidoc.css?">
 
-                          **Example page!**
+![Logo](https://github.com/nturpin0/OutputKit/raw/master/Images/OutputKit%20Logo%20No%20Message.png)
+# OutputKit
+For making nicer looking Shortcuts
 
-This is example page of the API doc style created
-[Aras Pranckevičius](https://github.com/aras-p) at Unity for Morgan McGuire's
-[Markdeep](https://casual-effects.com/markdeep/) and now part of the official Markdeep distro.
-It uses content that could be an imaginary documentation page. Here would be some introduction
-text.
+Special thanks to [/u/matthewr_1987](https://www.reddit.com/user/matthewr_1987) for using OutputKit in his Powr Shortcut, and all the promotion/support, and to [/u/ROPit](https://www.reddit.com/user/ROPit) for sorting out my logo
 
+## OutputKit Showcase
+Shortcuts that use OutputKit
+- [PowR](https://routinehub.co/shortcut/1430) - A shortcut to add text, audio, image, video and more content to your reminders! by [/u/matthewr_1987](https://www.reddit.com/user/matthewr_1987)
+- [EXIF Details](https://routinehub.co/shortcut/913) - Displays EXIF data for a photo sent from a share sheet, or if no photo is sent will use the photo selected.
+- [Short Weather](https://routinehub.co/shortcut/1469) - Weather Shortcut by [/u/Jpasholk](https://www.reddit.com/user/Jpasholk)
+- [Tatort](https://www.reddit.com/r/shortcuts/comments/9ze26m/tatort_viewer/) - for Tatort fans, a traditional german crime tv show from public television [/u/marco79cgn](https://www.reddit.com/user/marco79cgn)
+- [Trello Status](https://routinehub.co/shortcut/1243) - For visualising the status of all your Trello boards
+- [News Search](https://routinehub.co/shortcut/836) - Will search several news sources for any articles matching the keyword.
+- [Rain](https://routinehub.co/shortcut/1222) - Check the probability of rain for the day
 
-## What is this?
+## OutputKit Getting Started
+OutputKit is a bit of JSON (a dictionary in the form of text) that contains the markup for [Bootstrap](https://getbootstrap.com/docs/4.0/components/alerts/)  componnents, you put into a variable at the start of your Shortcut. You can then refer to the different elements with the tags listed below. It's best to look at the [OutputKit Examples](https://routinehub.co/shortcut/1219) Shortcut to get an idea of how it works, then to start with the [OutputKit Template](https://routinehub.co/shortcut/1220) to start making your own. Once you have a better idea, you can create you're own html templates, or update to the latest set of tags using the [OutputKit Build](https://routinehub.co/shortcut/1221) Shortcut.
 
-**Thing** is a thing used to do stuff for various platforms. Some of the things it can do:
+## How to set tags
+Shown here is choosing the variable you've assigned the OutputKit json to, and entering the corresponding key/OutputKit tag.
 
-* Run on a computer
-* Exit with an exit code
-* Be a replacement for our old system, `theoldthing.exe`
+![Video](https://github.com/nturpin0/OutputKit/raw/master/Images/OKDIctionary.gif) 
 
+### Menu Lists
+These are for creating lists containing pictures which can then be used like a menu to make a selection. It's important that they all remain on the same line (although it will of course wrap on the screen) with no carraige returns between them. All tags must be used, ie even if not using the Subtitle.
+You might notice that another dictionary item is used Media. It's sometimes a good idea to have a dictionary at the beginning of your Shortcut contatining a dictionary with any media items like an image, or sounds at the beginning of your Shortcut.
 
-## Invoking it
+- ml   mlsub   mlimage(required even if not using.  /ml. 
 
-<div class="admonition note">
-This is a note by the way!
-</div>
+![Picture](https://github.com/nturpin0/OutputKit/raw/master/Images/IMG_0825.png)
 
-From the root folder, run "thing" with the target name, e.g.: `thing Yes`
+### Bars
+- bar /bar
+Bars are simple percentage lines. The first number you put is the text displayed, the second one inside the tags is the number used to work out what is shown.
 
-* On Mac, Linux or Windows PowerShell, you'll want to use `./thing` instead of just `thing`.
-* Target and option names are case sensitive!
-* Several things to do can be specified: `thing Yes No FileNotFound`
+![Picture](https://github.com/nturpin0/OutputKit/raw/master/Images/IMG_0832.jpg)
 
-Additional options can be passed via `-sNAME=VALUE` arguments. Most common ones are CONFIG
-(used to indicate debug or release thing) and PLATFORM (used to indicate 32 vs 64 bit thing).
+### Jumbotron
+A Jumbotron is a big banner usually used at the top of your page.
+- jumbotron    /jumbotron
 
+![Picture](https://github.com/nturpin0/OutputKit/raw/master/Images/IMG_0827.png)
 
-### Subsection on stuff
+### Topbar
+A sticky header at the top of the page.
+- topbar   /topbar
 
+![Picture](https://github.com/nturpin0/OutputKit/raw/master/Images/IMG_0826.png)
 
-Thing Name              | Description        |Notes
-------------------------|--------------------|-----
-Yes                     | Yup!               |
-No                      | Nope :(            |
-FileNotFound            | Doesn't find files | Pass `-sFIND_FILE=maybe` to maybe find them
+### Lists
 
+![Picture](https://github.com/nturpin0/OutputKit/raw/master/Images/IMG_0839.jpg)
 
-## Markdeep syntax test
+Groups of list items should be enclosed in a listgroup tag.
+- listitem    /listitem
+- listgroup   /listgroup
 
-Regular styling like **bold**, _italics_, ~~strikethrough~~, `inline code`, the stuff.
+```
+<listgroup>
+  <listitem>Apples</listitem>
+  <listitem>Pears</listitem>
+</listgroup>
+```
 
-* A
-* Bullet
-* List
+### Cards
+![Cards](https://github.com/nturpin0/OutputKit/raw/master/Images/Cards.jpg)
 
-And:
+- card      /card  
+- cardbody   /cardbody
+- cardtext   /cardtext
+- cardheader   /cardheader
+- card link?
 
-1. A
-1. Numbered
-1. List!
+Different color cards are all closed by /card
+- cardred /card
+- cardblue /card
+- cardyellow /card
+- cardblack /card
 
-Symbol substitutions: a 45-degree turn; som x -> y arrows; some whoa ==> fancy <==> arrows.
+```
+<card>
+<cardheader>Card Title</cardheader>
 
-Is this a definition list?
-:   Looks like one to me
-Is that right?
-:   Possibly!
+</card>
+```
 
-And a code listing:
+### Links
+Three tags are needed for links 
+```
+<link>https://www.apple.com<linkname>Apple</link>
+```
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-int main()
-{
-    return 1;
-}
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+### Badges
+![Badges](https://github.com/nturpin0/OutputKit/raw/master/Images/Badges.jpg)
 
-
-Markdeep diagrams:
-
-*******************************************  Here's a text to the right of the diagram,
-* +-----------------+           .-.       *  ain't that fancy. Pretty fancy indeed, I
-* |\                |        .-+   |      *  must say! Markdeep diagrams are generally
-* | \     A-B   *---+--> .--+       '--.  *  enclosed into a rectangle full made of `*`
-* |  \              |   |     Cloud!    | *  symbols; and are "drawn" using ASCII-art
-* +---+-------------+    '-------------'  *  style, with `- | + / \ * o` etc.
-*******************************************  Suh-weet!
-
-
-Another random diagram, just because:
-
-********************
-*    +-+-+-+-*-o   *
-*   / / ^ /        *
-*  / v / /         *
-* +-+-+-+          *
-********************
-
-!!! Note
-    Hey I'm a note. Don't mind me, I'm just sitting here.
-
-!!! WARNING
-    I'm a warning, perhaps. *Something might happen!*
-
-And other admonitions:
-
-!!! Error: Never Pass `nullptr` to a Shader
-    Invoking a shader with a null argument can seg fault.
-    This is a multi-line admonition.
-
-    Seriously, don't call shaders like that.
+- badgeblue    /badge
+- badgegray     /badge
+- badgegreen   /badge
+- badgered      /badge
+- badgeyellow    /badge
+- badgelight     /badge
+- badgeblack    /badge
 
 
+### Buttons
+![Buttons](https://github.com/nturpin0/OutputKit/raw/master/Images/Buttons.jpg)
 
-The table of contents that Markdeep produces is stuffed on the right side, 
-if the browser window is wide enough. Otherwise it is hidden.
+- button /button
+- buttonblue  /button
+- buttondark     /button
+- buttongreen  /button
+- buttonyellow    /button
+- buttonred    /button 
+- buttonblack  /button
+
+Example of a button with a badge inside.
+
+![Picture](https://github.com/nturpin0/OutputKit/raw/master/Images/IMG_0828.png)
+
+![Picture](https://github.com/nturpin0/OutputKit/raw/master/Images/IMG_0836%202.jpg)
+
+
+```
+<buttonblue>Unread Mail <badgegray>4</badge></button>
+```
+
+### Tables
+The table tag will make your table responsive, ie works better on mobile screens of variable sizes. You wont need the normal table html tag, you can use the thead tbody th tr html mark up to make your table, or you can use Markdown to generate your table first. If you're just making a static table you might find [this site](https://www.tablesgenerator.com/html_tables) useful. 
+
+- table    /table
+
+
+### Media
+- Images imgb64  /imgb64
+- Video vidb64  /vidb6
+- Audio audb64  /audb64
+
+![Picture](https://github.com/nturpin0/OutputKit/raw/master/Images/IMG_0829.png)
+
+
+### Icons
+Example of how to show an icon using [Material Design](https://material.io/tools/icons/)
+
+![Picture](https://github.com/nturpin0/OutputKit/raw/master/Images/IMG_0830.png)
+
+Example of how to show an icon using [Font Awesome](https://fontawesome.com)
+
+![Picture](https://github.com/nturpin0/OutputKit/raw/master/Images/IMG_0831.png)
+
+### inc:
+These are used mostly by the template builder, and you dont need to know them, unless you've rolled your sleeves up to get a look under the hood.
+- viewport - sets up the page
+- bootstrapminimal - for including the bootstrap files
+- webapp - for when creating a page with no address bar, eg like a home screen launcher
+- topbarspace - adds space needed for a navbar
+- fa:icon - The includes for Font Awesome icons
+- md:icon - The includes for Material Design
+- disableselection - Disables selection of text in the web page
+- disablezoom - Disables zooming of web page
+
+Logo by [Rop](https://routinehub.co/user/ROP)
+
+![Made with OutputKit](https://raw.githubusercontent.com/nturpin0/OutputKit/master/Made%20with%20OutputKit%20Logo%20small.png)
+
 
 <style class="fallback">body{visibility:hidden}</style><script>markdeepOptions={tocStyle:'medium'};</script>
 <!-- Markdeep: --><script src="https://casual-effects.com/markdeep/latest/markdeep.min.js?" charset="utf-8"></script>
