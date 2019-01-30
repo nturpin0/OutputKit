@@ -28,6 +28,8 @@ Shortcuts that use OutputKit
 - [Trello Status](https://routinehub.co/shortcut/1243) - For visualising the status of all your Trello boards
 - [News Search](https://routinehub.co/shortcut/836) - Will search several news sources for any articles matching the keyword.
 - [Rain](https://routinehub.co/shortcut/1222) - Check the probability of rain for the day
+- [Today](https://routinehub.co/shortcut/1627)
+- [Weather](https://routinehub.co/shortcut/1630)
 
 
 
