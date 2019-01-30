@@ -15,7 +15,7 @@ Shown here is choosing the variable you've assigned the OutputKit json to, and e
 
 
 ## More info
-More detailed help can be found [here](https://nturpin0.github.io/OutputKit/index.md.html).
+More detailed help can be found [here](https://outputkit.readthedocs.io/en/latest/).
 
 
 
