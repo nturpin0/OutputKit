@@ -35,11 +35,43 @@ These are for creating lists containing pictures which can then be used like a m
 
 
 
-You might notice that another dictionary item is used Media. It's sometimes a good idea to have a dictionary at the beginning of your Shortcut contatining a dictionary with any media items like an image, or sounds at the beginning of your Shortcut.
+You might notice that another dictionary item is used Media. It's sometimes a good idea to have a dictionary at the beginning of your Shortcut containing any media items like images, or sounds.
 
-- ml   mlsub   mlimage(required even if not using.  /ml. 
+- (ml)Menu Item(mlsub)Subtitle(mlimage)base64encoded(/ml) 
+
+ml
+mlsub
+mlimage
+mlnote
+/ml
+
+Adding to your Shortcut
+Add the actions below to display the list menu in your Shortcut
+
+!!!
+Text 
+Paste in the menu you created in Menu Builder
+Set Name : Menu.vcf
+Get Variable : Set Name 
+Use a magic variable to point to set name action above, and then select and change the type to contact
+Choose From List
+
+#### After a selection is made
+You will need to use IF statements to run actions based on the selection.
+
+#### Retrieving Values
+You can get the variable of the selection, then set the variable as a contact if not already set, then set to NAME to retrieve the Title selected, or COMPANY for the subtitle selected.
 
 
+image 
+####Advanced
+You can store additional information in VCARDS in other fields used by the CARDS for example if the menu had colour names in the Name field, you could have RGB/HEX values in other fields that you dont want displayed, but you want to retrieve later.
+
+A text editor is essential if you want to re-order/remove or change the cards, some text editors will have a reorganise function that automatically identifies blocks of text and lets you drag/drop them into new orders.
+
+If you end up just typing/copy pasting your own in Shortcuts, having all your images in one dictionary at the beginning is a neat way to organise your Shortcut.
+
+More information on menu lists here [here](https://nturpin0.github.io/appsupport/MenuBuilder/about.html) and [here] (https://www.reddit.com/r/shortcuts/comments/aibvkg/creating_visually_appealing_menus/)
 
 ![Picture](https://github.com/nturpin0/OutputKit/raw/master/Images/IMG_0825.png)
 
