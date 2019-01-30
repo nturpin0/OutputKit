@@ -4,19 +4,19 @@ Most web tags need to be closed off ie /jumbotron, /bar, youll often find this i
 
 
 
-### bars
+### Bars
 - bar /bar
 Bars are simple percentage lines. The first number you put is the text displayed, the second one inside the tags is the number used to work out what is shown.
 
 ![](https://github.com/nturpin0/OutputKit/raw/master/Images/IMG_0832.jpg)
 
-### jumbotron
+### Jumbotron
 A Jumbotron is a big banner usually used at the top of your page.
 - jumbotron    /jumbotron
 
 ![](https://github.com/nturpin0/OutputKit/raw/master/Images/IMG_0827.png)
 
-### lists
+### Lists
 
 ![](https://github.com/nturpin0/OutputKit/raw/master/Images/IMG_0839.jpg)
 
@@ -31,7 +31,17 @@ Groups of list items should be enclosed in a listgroup tag.
 </listgroup>
 
 
-### cards
+### Cards
+All elements for a card, header, text etc should be containted within the <card> </card> tags. All cards, no matter which color should be closed with the /card tag.
+
+
+```
+<card>
+<cardheader>Card Title</cardheader>
+
+</card>
+```
+
 ![](https://github.com/nturpin0/OutputKit/raw/master/Images/Cards.jpg)
 
 - card      /card  
@@ -40,18 +50,12 @@ Groups of list items should be enclosed in a listgroup tag.
 - cardheader   /cardheader
 - card link?
 
-Different color cards are all closed by /card
+#### Color Cards
 - cardred /card
 - cardblue /card
 - cardyellow /card
 - cardblack /card
 
-```
-<card>
-<cardheader>Card Title</cardheader>
-
-</card>
-```
 
 ### badges
 ![](https://github.com/nturpin0/OutputKit/raw/master/Images/Badges.jpg)
@@ -88,12 +92,14 @@ Example of a button with a badge inside.
 ```
 
 ### tables
-The table tag will make your table responsive, ie works better on mobile screens of variable sizes. You wont need the normal table html tag, you can use the thead tbody th tr html mark up to make your table, or you can use Markdown to generate your table first. If you're just making a static table you might find [this site](https://www.tablesgenerator.com/html_tables) useful. 
+The table tag will make your table responsive, ie works better on mobile screens of variable sizes. You wont need the normal table html tag, you can use the thead tbody th tr html mark up to make your table, or you can use Markdown to generate your table first. If you're just making a static table you might find [this site](https://www.tablesgenerator.com/html_tables) useful for generating tables. 
 
 - table    /table
 
 
 ### media
+Any media needs to be a base 64 encoded text/variable, Video creates a very large piece of Base64 text and you wont work well with large videos.
+
 - Images imgb64  /imgb64
 - Video vidb64  /vidb6
 - Audio audb64  /audb64
@@ -102,11 +108,13 @@ The table tag will make your table responsive, ie works better on mobile screens
 
 
 ### icons
-Example of how to show an icon using [Material Design](https://material.io/tools/icons/)
+If using Material Design, or Font Awesome icons, you must remember to make sure you set the includes in the html template using the OutputKit Build.
+
+#### [Material Design](https://material.io/tools/icons/)
 
 ![](https://github.com/nturpin0/OutputKit/raw/master/Images/IMG_0830.png)
 
-Example of how to show an icon using [Font Awesome](https://fontawesome.com)
+#### [Font Awesome](https://fontawesome.com)
 
 ![](https://github.com/nturpin0/OutputKit/raw/master/Images/IMG_0831.png)
 
