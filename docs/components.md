@@ -75,12 +75,10 @@ All cards, no matter which color should be closed with the /card tag.
 ### Icons
 If using [Material Design](https://material.io/tools/icons/), or [Font Awesome](https://fontawesome.com) icons, you must remember to make sure you set the includes in the html template using the OutputKit Build Shortcut.
 
-#### Material Design
-
+- Material Design
 ![](https://github.com/nturpin0/OutputKit/raw/master/Images/IMG_0830.png)
 
-#### Font Awesome
-
+- Font Awesome
 ![](https://github.com/nturpin0/OutputKit/raw/master/Images/IMG_0831.png)
 
 
