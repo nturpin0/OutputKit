@@ -14,7 +14,7 @@ Shown here is choosing the variable you've assigned the OutputKit json to, and e
 
 
 
-## More info
+## Full Documentation
 More detailed help can be found [here](https://outputkit.readthedocs.io/en/latest/).
 
 
