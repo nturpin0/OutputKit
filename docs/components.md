@@ -57,7 +57,7 @@ All elements for a card, header, text etc should be containted within the <card>
 - cardblack /card
 
 
-### badges
+### Badges
 ![](https://github.com/nturpin0/OutputKit/raw/master/Images/Badges.jpg)
 
 - badgeblue    /badge
@@ -69,7 +69,7 @@ All elements for a card, header, text etc should be containted within the <card>
 - badgeblack    /badge
 
 
-### buttons
+### Buttons
 ![](https://github.com/nturpin0/OutputKit/raw/master/Images/Buttons.jpg)
 
 - button /button
@@ -91,13 +91,13 @@ Example of a button with a badge inside.
 <buttonblue>Unread Mail <badgegray>4</badge></button>
 ```
 
-### tables
+### Tables
 The table tag will make your table responsive, ie works better on mobile screens of variable sizes. You wont need the normal table html tag, you can use the thead tbody th tr html mark up to make your table, or you can use Markdown to generate your table first. If you're just making a static table you might find [this site](https://www.tablesgenerator.com/html_tables) useful for generating tables. 
 
 - table    /table
 
 
-### media
+### Media
 Any media needs to be a base 64 encoded text/variable, Video creates a very large piece of Base64 text and you wont work well with large videos.
 
 - Images imgb64  /imgb64
@@ -107,7 +107,7 @@ Any media needs to be a base 64 encoded text/variable, Video creates a very larg
 ![](https://github.com/nturpin0/OutputKit/raw/master/Images/IMG_0829.png)
 
 
-### icons
+### Icons
 If using Material Design, or Font Awesome icons, you must remember to make sure you set the includes in the html template using the OutputKit Build.
 
 #### [Material Design](https://material.io/tools/icons/)
@@ -119,7 +119,7 @@ If using Material Design, or Font Awesome icons, you must remember to make sure 
 ![](https://github.com/nturpin0/OutputKit/raw/master/Images/IMG_0831.png)
 
 
-### links
+### Links
 Three tags can be needed for link, you can use html if you prefer.
 ```
 <link>https://www.apple.com<linkname>Apple</link>
