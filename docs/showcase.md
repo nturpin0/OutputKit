@@ -1,7 +1,7 @@
 # Showcase
 
 Shortcuts that use OutputKit
-
+Send some screenshots and a link if you want to be included.
 
 ## [PowR](https://routinehub.co/shortcut/1430)
 A shortcut to add text, audio, image, video and more content to your reminders! by [/u/matthewr_1987](https://www.reddit.com/user/matthewr_1987)
@@ -17,7 +17,7 @@ for Tatort fans, a traditional german crime tv show from public television [/u/m
 
 ## [Trello Status](https://routinehub.co/shortcut/1243)
 For visualising the status of all your Trello boards
-![](i-VBORw0-KGgo-AAAANSUh-EUg-AABS0-AAAo4-CAYAAAC8-Jo-K-AAABgml-DQ1-Bz-Ukd-CIEl-FQz-Yx-OTY2-LTIu-2.png)
+![](/showcase/i-VBORw0-KGgo-AAAANSUh-EUg-AABS0-AAAo4-CAYAAAC8-Jo-K-AAABgml-DQ1-Bz-Ukd-CIEl-FQz-Yx-OTY2-LTIu-2.png)
 
 ## [News Search](https://routinehub.co/shortcut/836) 
 Will search several news sources for any articles matching the keyword.
