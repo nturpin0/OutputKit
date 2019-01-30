@@ -32,7 +32,7 @@ Groups of list items should be enclosed in a listgroup tag.
 
 
 ### Cards
-All elements for a card, header, text etc should be containted within the <card> </card> tags. All cards, no matter which color should be closed with the /card tag.
+All elements for a card, header, text etc should be containted within the card tags. All cards, no matter which color should be closed with the /card tag.
 
 
 ```
