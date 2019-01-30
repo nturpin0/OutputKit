@@ -13,7 +13,26 @@ If youre adding it your own Shortcut youve already made, you will probably want 
 ### Adding to your Shortcut
 Once youve done that you can then refer to the different elements with the tags listed below. It's best to look at the .
 
+### tags
+
+#### How to set tags
+Choose the variable you've assigned the OutputKit dictionary to, and enter a tag.
+
+![](https://github.com/nturpin0/OutputKit/raw/master/Images/OKDIctionary.gif) 
+
+
+
+
+## menu lists
+These are for creating lists containing pictures which can then be used like a menu to make a selection. It's important that they each tag and content remain on the same line for each entry being made in the list.
+(although it will of course wrap on the screen) with no carraige returns between them. All tags must be used, ie even if not using the Subtitle. 
+
+It's often useful to put any images/sounds and other big/reused items in dictionary at the top of your shortcut, and it keeps the text window clear of long strings. So when it comes to adding an image you can just type it.
+
 ### HTML Template
+
+
+
 
 ![Made with OutputKit](https://raw.githubusercontent.com/nturpin0/OutputKit/master/Made%20with%20OutputKit%20Logo%20small.png)
 ## Special Tags
