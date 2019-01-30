@@ -35,4 +35,4 @@ Copy and paste the strings into a Dictionary or the Shortcut [Asset Builder](htt
 
 
 ### Getting started with tags
-You can read more about the tags in the [component](component) and [mltags](mltags.md) sections.
+You can read more about the tags in the [component](components.md) and [mltags](mltags.md) sections.
