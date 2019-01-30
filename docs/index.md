@@ -25,18 +25,3 @@ Once youve done that you can then refer to the different elements with the tags 
 - [OutputKit Build](https://routinehub.co/shortcut/1221) Shortcut
 
 
-## Depreceated 
-
-- Topbar You now use the template builder to decide on if/when to have the space.
-No longer in the tags
-- viewport - sets up the page
-- bootstrapminimal - for including the bootstrap files
-- webapp - for when creating a page with no address bar, eg like a home screen launcher
-- topbarspace - adds space needed for a navbar
-- fa:icon - The includes for Font Awesome icons
-- md:icon - The includes for Material Design
-- disableselection - Disables selection of text in the web page
-- disablezoom - Disables zooming of web page
-
-## Thanks
-Special thanks to [/u/matthewr_1987](https://www.reddit.com/user/matthewr_1987) for using OutputKit in his Powr Shortcut, and all the promotion/support, and to [/u/ROPit](https://www.reddit.com/user/ROPit) for sorting out my logo
