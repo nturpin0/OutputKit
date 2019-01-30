@@ -23,6 +23,7 @@ Will search several news sources for any articles matching the keyword.
 
 ## [Rain](https://routinehub.co/shortcut/1222)
 Check the probability of rain for the day
+![](/showcase/IMG-0716.jpg)
 
 ## [Today](https://routinehub.co/shortcut/1627)
 
