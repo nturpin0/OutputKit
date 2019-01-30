@@ -1,6 +1,3 @@
-     <meta charset="utf-8" emacsmode="-*- markdown -*-"><link rel="stylesheet" href="https://casual-effects.com/markdeep/latest/apidoc.css?">
-
-
 ![](https://github.com/nturpin0/OutputKit/raw/master/Images/OutputKit%20Logo%20No%20Message.png)
 # OutputKit
 For making nicer looking Shortcuts
@@ -287,5 +284,3 @@ Markdeep includes highlight.js, so you are also bound by its BSD license:
       TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS 
       SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-<style class="fallback">body{visibility:hidden}</style><script>markdeepOptions={tocStyle:'medium'};</script>
-<!-- Markdeep: --><script src="https://casual-effects.com/markdeep/latest/markdeep.min.js?" charset="utf-8"></script>
