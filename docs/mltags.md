@@ -1,4 +1,4 @@
-### ml tags
+# ml tags
 
 ## menu lists
 These are for creating lists containing pictures which can then be used like a menu to make a selection. It's important that they each tag and content remain on the same line for each entry being made in the list.
@@ -33,15 +33,15 @@ Get Variable : Set Name (Use a magic variable to point to set name action above,
 Choose From List
 ```
 
-#### After a selection is made
+### After a selection is made
 If you are using the listmenu to make menus of options you will likely have to use IF Otherwise actions.
 
-#### Retrieving Values
+### Retrieving Values
 You can get the variable of the selection, then set the variable as a contact if not already set, then set to NAME to retrieve the Title selected, or COMPANY for the subtitle selected.
 
 get image from site, and edit text below fo rcontext
 
-#### Advanced
+### Advanced
 You can store additional information in VCARDS in other fields used by the CARDS for example if the menu had colour names in the Name field, you could have RGB/HEX values in other fields that you dont want displayed, but you want to retrieve later.
 
 You can add variables in the text in side the tags, eg to add a count result to a subtitle
