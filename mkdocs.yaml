@@ -1,4 +1,6 @@
 site_name: OutputKit
+repo_url: https://github.com/nturpin0/OutputKit
+
 nav:
     - Getting Started: index.md
     - ml tags: mltags.md
