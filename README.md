@@ -2,7 +2,22 @@
 # OutputKit
 For making nicer looking Shortcuts
 
-Special thanks to [/u/matthewr_1987](https://www.reddit.com/user/matthewr_1987) for using OutputKit in his Powr Shortcut, and all the promotion/support, and to [/u/ROPit](https://www.reddit.com/user/ROPit) for sorting out my logo
+OutputKit is a bit of JSON (a dictionary in the form of text) that contains the markup for [Bootstrap CSS Components](https://getbootstrap.com/docs/4.0/components/alerts/), you put into a variable at the start of your Shortcut. You can then refer to the different elements with tags in variable in your Shortcut.
+
+## OutputKit Getting Started
+It's best to look at the [OutputKit Examples](https://routinehub.co/shortcut/1219) Shortcut to get an idea of how it works, then to start with the [OutputKit Template](https://routinehub.co/shortcut/1220) to start making your own. Once you have a better idea, you can create you're own html templates, or update to the latest set of tags using the [OutputKit Build](https://routinehub.co/shortcut/1221) Shortcut.
+
+## How to set tags
+Shown here is choosing the variable you've assigned the OutputKit json to, and entering the corresponding key/OutputKit tag.
+
+![Video](https://github.com/nturpin0/OutputKit/raw/master/Images/OKDIctionary.gif) 
+
+
+
+## More info
+More detailed help can be found [here](https://nturpin0.github.io/OutputKit/index.md.html).
+
+
 
 ## OutputKit Showcase
 Shortcuts that use OutputKit
@@ -14,21 +29,9 @@ Shortcuts that use OutputKit
 - [News Search](https://routinehub.co/shortcut/836) - Will search several news sources for any articles matching the keyword.
 - [Rain](https://routinehub.co/shortcut/1222) - Check the probability of rain for the day
 
-## OutputKit Getting Started
-OutputKit is a bit of JSON (a dictionary in the form of text) that contains the markup for [Bootstrap CSS Components](https://getbootstrap.com/docs/4.0/components/alerts/), you put into a variable at the start of your Shortcut. You can then refer to the different elements with the tags listed below. It's best to look at the [OutputKit Examples](https://routinehub.co/shortcut/1219) Shortcut to get an idea of how it works, then to start with the [OutputKit Template](https://routinehub.co/shortcut/1220) to start making your own. Once you have a better idea, you can create you're own html templates, or update to the latest set of tags using the [OutputKit Build](https://routinehub.co/shortcut/1221) Shortcut.
-
-## How to set tags
-Shown here is choosing the variable you've assigned the OutputKit json to, and entering the corresponding key/OutputKit tag.
-
-![Video](https://github.com/nturpin0/OutputKit/raw/master/Images/OKDIctionary.gif) 
 
 
-
-# More info
-
-More detailed help can be found ![here](https://nturpin0.github.io/OutputKit/index.md.html)
-
-
-Logo by [Rop](https://routinehub.co/user/ROP)
+##
+Special thanks to [/u/matthewr_1987](https://www.reddit.com/user/matthewr_1987) for using OutputKit in his Powr Shortcut, and all the promotion/support, and to [/u/ROPit](https://www.reddit.com/user/ROPit) for sorting out my logo
 
 ![Made with OutputKit](https://raw.githubusercontent.com/nturpin0/OutputKit/master/Made%20with%20OutputKit%20Logo%20small.png)
