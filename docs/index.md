@@ -26,5 +26,5 @@ Choose the variable you've assigned the OutputKit dictionary to, and enter a tag
 ### HTML Template
 
 
-### Adding images
-It's often useful to put any images/sounds and other big/reused items in dictionary at the top of your shortcut, and it keeps the text window clear of long strings. So when it comes to adding an image you can just type it.
+### Adding images and other media
+It's often useful to put any base64 encoded images/sounds and other big/reused items in dictionary at the top of your shortcut, and it keeps the text window clear of long strings. So when it comes to adding an image you can just type it.
