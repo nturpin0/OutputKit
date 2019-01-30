@@ -28,16 +28,3 @@ Choose the variable you've assigned the OutputKit dictionary to, and enter a tag
 
 ### Adding images
 It's often useful to put any images/sounds and other big/reused items in dictionary at the top of your shortcut, and it keeps the text window clear of long strings. So when it comes to adding an image you can just type it.
-
-
-
-![Made with OutputKit](https://raw.githubusercontent.com/nturpin0/OutputKit/master/Made%20with%20OutputKit%20Logo%20small.png)
-## Special Tags
-- version
-
-## Shortcuts
-- [OutputKit Examples](https://routinehub.co/shortcut/1219) Shortcut to get an idea of how it works, then to start with the 
-- [OutputKit Template](https://routinehub.co/shortcut/1220) to start making your own. Once you have a better idea, you can create you're own html templates, or update to the latest set of tags using the 
-- [OutputKit Build](https://routinehub.co/shortcut/1221) Shortcut
-
-
