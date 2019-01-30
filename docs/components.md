@@ -47,7 +47,7 @@ Buttons are usually used to activate an action or a link, but they can also be u
 
 
 ### Cards
-You can put icons in the title, or use html tags like <h1> to set the size.
+You can put icons in the title, or use html tags like ```<h1>``` to set the size.
 ![](https://github.com/nturpin0/OutputKit/raw/master/Images/Cards.jpg)
 
 - card      /card  
