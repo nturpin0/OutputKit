@@ -22,8 +22,10 @@ mlimage
 mlnote
 /ml
 
+## mlcolors
+mlcolors is a slightly different tags, it contains all the markup and images for a menu with a set of css colors with single names, selecting a color returns the css color name. It doesnt need any closing tag.
 
-### Additional actions to add to your Shortcut for ml tags
+## Additional actions to add to your Shortcut for ml tags
 Add the actions below to display the list menu in your Shortcut
 
 ```
