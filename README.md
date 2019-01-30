@@ -15,7 +15,7 @@ Shortcuts that use OutputKit
 - [Rain](https://routinehub.co/shortcut/1222) - Check the probability of rain for the day
 
 ## OutputKit Getting Started
-OutputKit is a bit of JSON (a dictionary in the form of text) that contains the markup for [Bootstrap](https://getbootstrap.com/docs/4.0/components/alerts/)  componnents, you put into a variable at the start of your Shortcut. You can then refer to the different elements with the tags listed below. It's best to look at the [OutputKit Examples](https://routinehub.co/shortcut/1219) Shortcut to get an idea of how it works, then to start with the [OutputKit Template](https://routinehub.co/shortcut/1220) to start making your own. Once you have a better idea, you can create you're own html templates, or update to the latest set of tags using the [OutputKit Build](https://routinehub.co/shortcut/1221) Shortcut.
+OutputKit is a bit of JSON (a dictionary in the form of text) that contains the markup for [Bootstrap CSS Components](https://getbootstrap.com/docs/4.0/components/alerts/), you put into a variable at the start of your Shortcut. You can then refer to the different elements with the tags listed below. It's best to look at the [OutputKit Examples](https://routinehub.co/shortcut/1219) Shortcut to get an idea of how it works, then to start with the [OutputKit Template](https://routinehub.co/shortcut/1220) to start making your own. Once you have a better idea, you can create you're own html templates, or update to the latest set of tags using the [OutputKit Build](https://routinehub.co/shortcut/1221) Shortcut.
 
 ## How to set tags
 Shown here is choosing the variable you've assigned the OutputKit json to, and entering the corresponding key/OutputKit tag.
