@@ -17,15 +17,19 @@ for Tatort fans, a traditional german crime tv show from public television [/u/m
 
 ## [Trello Status](https://routinehub.co/shortcut/1243)
 For visualising the status of all your Trello boards
+![](i-VBORw0-KGgo-AAAANSUh-EUg-AABS0-AAAo4-CAYAAAC8-Jo-K-AAABgml-DQ1-Bz-Ukd-CIEl-FQz-Yx-OTY2-LTIu-2.png)
 
 ## [News Search](https://routinehub.co/shortcut/836) 
-![](/showcase/Image-2.png)
 Will search several news sources for any articles matching the keyword.
+![](/showcase/Image-2.png)
+
 
 ## [Rain](https://routinehub.co/shortcut/1222)
 Check the probability of rain for the day
 ![](/showcase/IMG-0716.jpg)
 
 ## [Today](https://routinehub.co/shortcut/1627)
+How things are looking for today and the days ahead.
+![](/showcase/image.png)
 
 ## [Weather](https://routinehub.co/shortcut/1630)
