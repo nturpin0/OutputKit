@@ -1,14 +1,12 @@
 site_name: OutputKit
 repo_url: https://github.com/nturpin0/OutputKit
-
 nav:
-    - About index.md
+    - About: index.md
     - Getting started: Getting Started.md
     - ml tags: mltags.md
     - Component tags: components.md
     - Shortcuts: shortcuts.md
     - Showcase: showcase.md
     - Thanks: thanks.md
-
 theme:
     name: readthedocs
