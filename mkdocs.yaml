@@ -1,0 +1,4 @@
+site_name: MkLorum
+nav:
+    - Getting Started: index.md
+    - Tags: tags.md
