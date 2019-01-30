@@ -6,7 +6,3 @@ For making nicer looking Shortcuts
 OutputKit is a bit of JSON (a dictionary in the form of text) that contains the markup for [Bootstrap components](https://getbootstrap.com/docs/4.0/components/alerts/)  , you put into a variable at the start of your Shortcut.
 
 
-
-
-### Full Documentation
-You can read more about the tags in the [component](components.md) and [mltags](mltags.md) sections.
