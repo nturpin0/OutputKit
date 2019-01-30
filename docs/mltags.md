@@ -29,11 +29,13 @@ mlcolors is a slightly different tags, it contains all the markup and images for
 Add the actions below to display the list menu in your Shortcut
 
 ```
-Text (containing the ml tags youve made)
+Text 
 Set Name : Menu.vcf
-Get Variable : Set Name (Use a magic variable to point to set name action above, and then select and change the type to contact)
+Get Variable : Set Name 
 Choose From List
 ```
+Text (should contain the ml tags youve made)
+With Set Name (Use a magic variable to point to set name action above, and then select and change the type to contact)
 
 ### After a selection is made
 If you are using the listmenu to make menus of options you will likely have to use IF Otherwise actions.
