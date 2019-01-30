@@ -3,3 +3,6 @@ nav:
     - Getting Started: index.md
     - ml tags: mltags.md
     - Component tags: components.md
+
+theme:
+    name: readthedocs
