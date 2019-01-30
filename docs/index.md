@@ -17,7 +17,7 @@ Using the [https://routinehub.co/shortcut/1221](OutputKit Build) Shortcut, you c
 The html template should be copied into a text box and then displayed, there are several ways of doing this, quickview, View Web Page or opening in Safari using a data URI. You will need to insert the output you want to refer to into the heml template, you'll find its often better to split your content into several text boxes to make it easier to edit.
 
 
-## tags
+## Tags
 Once youve have a template Shortcut, or have added the json to your own Shortcut, you can then refer to the different elements with the tags.
 
 
@@ -34,5 +34,5 @@ It's often useful to put any base64 encoded images/sounds and other big/reused i
 Copy and paste the strings into a Dictionary or the Shortcut [Asset Builder](https://routinehub.co/shortcut/1760) can be used to add Base 64 Encoded items as a text json string, just like OutputKit.
 
 
-### Getting started with tags
+### Full Documentation
 You can read more about the tags in the [component](components.md) and [mltags](mltags.md) sections.
