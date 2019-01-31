@@ -11,7 +11,7 @@ Displays EXIF data for a photo sent from a share sheet, or if no photo is sent w
 
 ## [Short Weather](https://routinehub.co/shortcut/1469)
 Weather Shortcut by [/u/Jpasholk](https://www.reddit.com/user/Jpasholk)
-![](/showcase/ShortWeather.png
+![](/showcase/ShortWeather.png)
 
 ## [Tatort](https://www.reddit.com/r/shortcuts/comments/9ze26m/tatort_viewer/)
 for Tatort fans, a traditional german crime tv show from public television [/u/marco79cgn](https://www.reddit.com/user/marco79cgn)
