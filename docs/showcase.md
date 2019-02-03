@@ -5,6 +5,7 @@ Send some screenshots and a link if you want to be included.
 
 ## [PowR](https://routinehub.co/shortcut/1430)
 A shortcut to add text, audio, image, video and more content to your reminders! by [/u/matthewr_1987](https://www.reddit.com/user/matthewr_1987)
+![](/showcase/PowR.png)
 
 ## [EXIF Details](https://routinehub.co/shortcut/913)
 Displays EXIF data for a photo sent from a share sheet, or if no photo is sent will use the photo selected.
