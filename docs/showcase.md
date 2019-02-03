@@ -9,7 +9,7 @@ A shortcut to add text, audio, image, video and more content to your reminders! 
 
 ## [EXIF Details](https://routinehub.co/shortcut/913)
 Displays EXIF data for a photo sent from a share sheet, or if no photo is sent will use the photo selected.
-![](/showcase/EXIF.png)
+![](/showcase/EXIF.jpg)
 
 ## [Short Weather](https://routinehub.co/shortcut/1469)
 Weather Shortcut by [/u/Jpasholk](https://www.reddit.com/user/Jpasholk)
