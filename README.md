@@ -3,3 +3,7 @@
 For making nicer looking Shortcuts
 
 https://outputkit.readthedocs.io/en/latest/
+
+
+
+[Bootstrap License](https://github.com/twbs/bootstrap/blob/master/LICENSE)
