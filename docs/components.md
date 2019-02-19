@@ -90,6 +90,8 @@ Groups of list items should be enclosed in a listgroup tag.
 - listitem    /listitem
 - listgroup   /listgroup
 
+use li if your comfortable with the html or use some markdown (if you convert it) 
+
 '''
 <listgroup>
   <listitem>Apples</listitem>
