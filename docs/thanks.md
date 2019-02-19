@@ -11,4 +11,4 @@ for sorting out my logo. ROPit also makes [MediaKit](https://routinehub.co/short
 ![](https://github.com/nturpin0/OutputKit/raw/master/Made%20with%20OutputKit%20Logo%20small.png)
 
 
-[https://github.com/twbs/bootstrap/blob/master/LICENSE](https://github.com/twbs/bootstrap/blob/master/LICENSE)
+[Bootstrap License](https://github.com/twbs/bootstrap/blob/master/LICENSE)
